@@ -55,13 +55,13 @@
 										<li class="divider"></li>
 										<li><a id='show_board_settings' class="admin" href="javascript:showBoardSettings();">Settings</a></li>
 										<li><a id='show_video_backup_status' class="admin" href="javascript:showBackupVideoStatus();">Video Backup Status</a></li>
-										<li class="divider"></li>
+										<!-- <li class="divider"></li> -->
 										<li class="dropdown-submenu">
 											<a href="#">Users</a>
 											<ul class="dropdown-menu">
 												<li><a href="javascript:showAddUserDialogNew()">Add</a></li>
-												<li><a href="javascript:listUsersForUserModify()">Modify</a></li>
-												<li><a href="javascript:showDeleteUserDialogNow)()">Delete</a></li>
+												<li><a href="javascript:listUsersForUserModify()">Modify / Delete</a></li>
+												<!-- <li><a href="javascript:showDeleteUserDialogNow)()">Delete</a></li> -->
 											</ul>
 										</li>
 									</ul>
@@ -612,7 +612,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
-						<h4 class="modal-title">Modify User</h4>
+						<h4 class="modal-title">Modify / Delete User</h4>
 					</div>
 					<div class="modal-body">
 						<div class="row">
@@ -621,6 +621,11 @@
 								<select class="selectpicker" data-style="btn-primary" id="users_list_for_modification" data-width="100%"  data-size="15" onChange="javascript:loadSelectedUserDetails(this)">
 								</select>
 							</div>
+							<!--
+							<div class="col-xs-1">
+								<button type="button" class="btn btn-danger" onClick="javascript:deleteSelectedUser()";><i class="glyphicon glyphicon-trash"></i></button>
+							</div>
+							-->
 						</div>
 						<br/>
 						<div class="row">
@@ -641,9 +646,9 @@
 								<div class="btn-group  pull-left" data-toggle="buttons"><label class="btn btn-primary active" id="modify_isadmin_selection"><input id="modify_isadmin_new" type="checkbox" checked autocomplete="off" name="modify_isadmin_new"><span class="glyphicon glyphicon-ok"></span></label></div>
 							</div>
 						</div>
-						<div class="row  pull-left">
+						<div class="row">
 							<div class="col-xs-12">
-							&nbsp;
+								<span class="pull-left"><br/>Leave password fields empty to retain previous password.</span>
 							</div>
 						</div>							
 						<div class="row  pull-left">
@@ -654,6 +659,7 @@
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default"  onClick='javascript:hideModifyUserDlgNew();'>Close</button>
+						<button type="button" class="btn btn-danger" id="deleteUserBtn" onClick='javascript:deleteSelectedUserNew();'>Delete</button>
 						<button type="button" class="btn btn-success" id="addUserBtn" onClick='javascript:modifyUserNew();'>Modify</button>
 					</div>
 				</div>

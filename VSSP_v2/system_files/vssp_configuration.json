@@ -4,22 +4,10 @@
   "name": "FirstBoard",
   "users": [
     {
-      "username": "saraav",
-      "password": "x6UOGx77DCI22SXP+w91ZQ==",
-      "email": "saraav@gmail.com",
-	  "id" : 1
-    },
-    {
-      "username": "admin",
-      "password": "9YX3eZ2dH8Iq/d899fvoIQ==",
-      "email": "saraav@gmail.com",
-	  "id" : 2
-    },
-    {
-      "username": "new_normal_user",
-      "password": "8IhdSCzTVrZEdXLYAv6FOA==",
-      "email": "testuser@gmail.com",
-	  "id": 3
+      "username": "dummy_user",
+      "password": "JGkUym4oyv0PskwmasKTsw==",
+      "email": "dummyadminuser@user.com",
+      "id": 5
     }
   ],
   "adminCredentials": [
@@ -27,19 +15,19 @@
       "username": "saraav",
       "password": "x6UOGx77DCI22SXP+w91ZQ==",
       "email": "saraav@gmail.com",
-	  "id" : 1
+      "id": 1
     },
     {
       "username": "admin",
       "password": "9YX3eZ2dH8Iq/d899fvoIQ==",
       "email": "saraav@gmail.com",
-	  "id" : 2
+      "id": 2
     },
     {
-      "username": "admin123",
+      "username": "test",
       "password": "8IhdSCzTVrZEdXLYAv6FOA==",
-      "email": "tes@gmail.com",
-	  "id" : 3
+      "email": "1243test@test.com",
+      "id": 6
     }
   ],
   "max_storage_size": "24000000",

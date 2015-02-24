@@ -338,15 +338,20 @@ exports.createUser = function(req, res) {
 	var isAnyUserPresent = false;
 	
 	var users = device.users;
-	if(blnCreateAdmin) {
-		users = device.adminCredentials;
-	}
-	
 	users.forEach( function(val) {		//device.users.list.data.forEach
 		if(val['username'] === username ) {
 			isAnyUserPresent = true;
 		}
 	});	
+	if(! isAnyUserPresent) {
+		users = device.adminCredentials;
+		users.forEach( function(val) {		//device.users.list.data.forEach
+			if(val['username'] === username ) {
+				isAnyUserPresent = true;
+			}
+		});	
+	}
+
 	if(isAnyUserPresent) {
 		response.error_info = 'User:' + username + ' already exists';
 		res.json(200, response);
@@ -359,7 +364,11 @@ exports.createUser = function(req, res) {
 	data['username'] = username;
 	data['password'] = password;
 	data['email'] = email;
-	data['id'] = users.length + 1;
+	data['id'] = users.length + device.adminCredentials.length + 1;
+
+	if(blnCreateAdmin) {
+		users = device.adminCredentials;
+	}
 	users.push(data);
 	
 	//write back the confif to file
@@ -405,65 +414,74 @@ exports.modifyUser = function(req, res) {
 	}
 	
 	var username = req.body.username || req.query.username;
-	var oldpwd = req.body.oldpwd || req.query.oldpwd;
+	//var oldpwd = req.body.oldpwd || req.query.oldpwd;
 	var newpwd = req.body.newpwd || req.query.newpwd;
 	var email = req.body.email || req.query.email;
+	var type = req.body.type || req.query.type;
 	if(S(email).isEmpty() || S(username).isEmpty()) {
 		response.error_info = 'Mandatory params are missing to modify the user';
 		res.json(200, response);
 		logger.error(JSON.stringify(response));
 		return;
 	}
-
-	if(! S(oldpwd).isEmpty()) {		
-		if(S(newpwd).isEmpty()) {
-			response.error_info = 'Old and New password are not matching to modify the user';
-			res.json(200, response);
-			logger.error(JSON.stringify(response));
-			return;		
+	var blnCreateAdmin = false;
+	if(! S(type).isEmpty()) {
+		if(type == 'admin') {
+			blnCreateAdmin = true;
 		}
-		oldpwd = this.encryptPassword(oldpwd, device);
-		newpwd = this.encryptPassword(newpwd, device);
-		
-		var newUserDetails = {};
-		newUserDetails['username'] = username;
-		newUserDetails['password'] = newpwd;
-		newUserDetails['email'] = email;
-		
-		var isAnyUserPresent = false;
-		var index = -1;
-		device.users.forEach( function(val) {		//device.users.list.data.forEach
+	}	
+	var isAnyUserPresent = false;
+	var userId = -1;
+	var userPwd = '';
+	var index = -1;
+	var users = device.users;
+	users.forEach( function(val) {		//device.users.list.data.forEach
+		index = index + 1;
+		if(val['username'] === username ) {
+			userId = val['id'];
+			userPwd = val['password'];
+			isAnyUserPresent = true;
+			users.splice(index, 1);
+			return false;
+		}
+	});	
+	index = -1;
+	if(! isAnyUserPresent) {
+		device.adminCredentials.forEach( function(val) {		//device.users.list.data.forEach
 			index = index + 1;
-			if(val['username'] === username && val['password'] == oldpwd ) {
-				newUserDetails['id'] = val['id'];
-				device.users.splice(index, 1);
-				device.users.push(newUserDetails);
+			if(val['username'] === username ) {
+				userId = val['id'];
+				userPwd = val['password'];
 				isAnyUserPresent = true;
+				device.adminCredentials.splice(index, 1);
+				return false;
 			}
 		});	
-		if(! isAnyUserPresent) {
-			response.error_info = 'Old password for User:' + username + ' is wrong';
-			res.json(200, response);
-			logger.error(JSON.stringify(response));
-			return;
-		}
-	} else {
-		var isAnyUserPresent = false;
-		var index = -1;
-		device.users.forEach( function(val) {		//device.users.list.data.forEach
-			index = index + 1;
-			if(val['username'] === username) {
-				val['email'] = email;
-				isAnyUserPresent = true;
-			}
-		});	
-		if(! isAnyUserPresent) {
-			response.error_info = 'User:' + username + ' not exist to modify the email address';
-			res.json(200, response);
-			logger.error(JSON.stringify(response));
-			return;
-		}	
 	}
+	if(! isAnyUserPresent) {
+		response.error_info = 'User:' + username + ' is not present';
+		res.json(200, response);
+		logger.error(JSON.stringify(response));
+		return;
+	}
+		
+	
+	var data = {};
+	data['username'] = username;
+	if(! S(newpwd).isEmpty()) {
+		newpwd = this.encryptPassword(newpwd, device);
+		data['password'] = newpwd;
+	} else {
+		data['password'] = userPwd;
+	}
+	data['email'] = email;
+	data['id'] = userId;
+
+	if(blnCreateAdmin) {
+		users = device.adminCredentials;
+	}
+	users.push(data);
+	
 	
 	//write back the confif to file
 	try {
