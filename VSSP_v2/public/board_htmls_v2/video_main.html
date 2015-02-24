@@ -1,0 +1,670 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/site.min.css">
+		<link rel="stylesheet" href="css/bootstrap-select.min.css">
+		<link rel="stylesheet" href="css/datepicker.css">
+		<link rel="stylesheet" href="css/datepicker3.css">
+		<!-- <link href="/bootflat/video-js-4.11.2/video-js/video-js.css" rel="stylesheet"> -->
+		<script type="text/javascript" src="js/site.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+		<script type="text/javascript" src="js/moment.js"></script>		
+		<script src="./js_dojo/js/dojo/dojo.js" djConfig = 'parseOnLoad: true'></script>
+		<!-- <script src='/bootflat/video-js-4.11.2/video-js/video.js'></script> -->
+		<script src="/modules/Base64Module.js"></script>
+		<script src="/modules/AddModifyDeleteUsers.js"></script>
+		<script src="/modules/video_main_v1.js"></script>
+		<script src="/modules/CameraEditor.js"></script>
+		<script src="/modules/BoardSettingsEditor.js"></script>
+		<script src="/modules/VideoFilter.js"></script>
+		<script src="/modules/BackupVideos.js"></script>
+		<script src="/modules/DojoRequire.js"></script>
+		<script src="/modules/VideoPlayer.js"></script>
+		<!-- <script src="/modules/BoardNodeDisplayHandler.js"></script> -->
+		<script src="/modules/AddModifyDeleteNode.js"></script>
+		<script src="/modules/NodeTreeHandler.js"></script>		
+		<!-- <script src="/modules/StartStopVideoHandler.js"></script>	-->
+		<!--<script src="/modules/NodeTabPaneHandler.js"></script>	-->
+		<script src='/modules/BoardNodeHandler.js'></script>
+		<script src="/modules/NodeVideoRecordRequestsTabPaneHandler.js"></script>	
+		<script src='/modules/StackCameraDisplayHandler.js'></script>
+		<script src='/modules/ScheduledRecordHandler.js'></script>
+		<script>
+			// videojs.options.flash.swf = "/video-js-4.11.2/video-js/video-js.swf";
+		</script>
+	</head>
+	<body>
+		<div id="loading" class='dont-show'>
+			<p><img src="img/spiffygif_40x40.gif" />Please Wait</p>
+		</div>	
+		<div class="app-header">
+			<table class='app-header-table'>
+				<tr>
+					<td>
+						<p class='app_name'>&nbsp;&nbsp;&nbsp;&nbsp;Video Surveillance Service Provider</p>
+					</td>
+					<td>
+						<div class="collapse navbar-collapse" id='nav_bar_header'>
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+										<h5>Board&nbsp;&nbsp;<span class="caret"></h5>
+									</button>
+									<ul class="dropdown-menu" role="menu">
+										<li><a id='add_camera' class="admin" href="javascript:showAddCameraDialog();">Add Camera</a></li>
+										<li class="divider"></li>
+										<li><a id='show_board_settings' class="admin" href="javascript:showBoardSettings();">Settings</a></li>
+										<li><a id='show_video_backup_status' class="admin" href="javascript:showBackupVideoStatus();">Video Backup Status</a></li>
+										<li class="divider"></li>
+										<li class="dropdown-submenu">
+											<a href="#">Users</a>
+											<ul class="dropdown-menu">
+												<li><a href="javascript:showAddUserDialogNew()">Add</a></li>
+												<li><a href="javascript:listUsersForUserModify()">Modify</a></li>
+												<li><a href="javascript:showDeleteUserDialogNow)()">Delete</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<div class="btn-group">
+										<!-- class='badge  badge-success' -->
+										<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><h5><span id='logged_user_details'></span>&nbsp;&nbsp;<span class="caret"></span></h5></button>
+										<ul class="dropdown-menu" role="menu">
+											<!-- <li><a href="javascript:showSettingsDialog();">Settings</a></li> -->
+											<li><a id='enableDisableAdmin' href="javascript:enableDisableAdminSession();">Enable Admin Session</a></li>
+											<li class="divider"></li>
+											<li><a href="javascript:signOut();">Sign out</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class='container_custom_main' id='container_custom_main'>
+			<br/>
+			<div id='status_container' class='dont-show'>
+				<span id='status' class="label"></span>
+			</div>
+			<table class='camera_stack_row'>
+				<tr>
+					<td class='camera_stack_col'>
+						<div  class="col-md-12">
+							<ul id='camera_stack' class="nav nav-pills nav-justified">
+							</ul>
+						</div>
+						<div class="col-md-12">
+							<ul id="selectedCameraDetailsDisplay" class="nav nav-pills nav-stacked">								
+							</ul>
+						</div>
+					</td>
+					<td class='board_storage_display'>
+						<!--
+						<div class="progress">
+							<div id='board_usage' class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">Board Storage Usage: 80%</div>
+						</div>
+						-->
+					</td>
+				</tr>
+			</table>	
+			<div id='confirmation_alert' class='dialog_container dont-show'>
+				<div class='dialog_content'>
+					<div id='confirmation_type' class="alert alert-warning alert-dismissable">
+						<!-- <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> -->
+						<h4>Confirmation !</h4>
+						<p id='confirmation_msg'></p>
+						<p>
+							<a id='confirmation_action_button' class="btn btn-warning">Yes</a>
+							<a id='confirmation_cancel_button' class="btn btn-warning" href="javascript:closeConfirmationAlert();">Cancel</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id='exception_alert' class='exception_container dont-show'>
+				<div class='exception_content'>
+					<div id='exception_type' class="alert alert-danger alert-dismissable">
+						<!-- <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> -->
+						<h4 id="exception_header">System Fault !</h4>
+						<p id='exception_msg'></p>
+						<p>
+							<a id='exception_login_button' class="btn btn-danger" href="javascript:signOut();">Login</a>
+							<a id='exception_continue_button' class="btn btn-warning" href="javascript:closeExceptionAlert();">Continue</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div id='admin_dialog_container' class='admin_dialog_container dont-show'>
+				<!-- <div class="modal" id='admin_authenticate_dialog'> -->
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+								<h4 class="modal-title">Admin Authentication</h4>
+							</div>
+							<div class="modal-body">
+								<p>Authenticate with admin credentials. This session will be valid for next:<span id='admin_timeout_display'></span> seconds.</p>
+								<div class="row">
+									<div class="col-xs-6"><label>Username</label><input class="form-control" placeholder="Username" id='admin_username' name='admin_username'></div>
+									<div class="col-xs-6"><label>Password</label><input class="form-control" placeholder="Password" type='password' name='admin_password' id='admin_password'>
+									</div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-12">
+									<span id='admin_auth_error_status' class="label dont-show label-danger"></span>
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default"  onClick='javascript:closeAdminAuthenticateDialog()'>Close</button>
+								<button type="button" class="btn btn-success" onClick='javascript:authenticateAdminUser()'>Authenticate</button>
+							</div>
+						</div>
+					</div>
+				<!-- </div> -->
+			</div>
+			<div id='video_player_dialog_container' class='video_dialog_container dont-show'>
+				<!-- <div class="modal" id='video_dialog_container'> -->
+					<div class="video-player-modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+								<h4 class="modal-title" id='fileToPlay'>Video Player</h4>
+								<!--
+								<div class="row example-pagination">
+									<div class="col-md-12">
+										<ul class="pager">
+											<li id="prevVideo" class="previous"><a href="javascript:loadPreviousVideo()">Previous</a></li>
+											<li id="nextVideo" class="next"><a href="javascript:loadNextVideo()">Next</a></li>
+										</ul>
+									</div>
+								</div>
+								-->
+							</div>
+							<div class="modal-body">
+								<div class="row">
+									<div class="col-xs-10-custom" id="video_col">
+										<div id="videoPlayerDiv">
+											<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" id="videoplayer_vlc" name="videoplayer_vlc" width="640px" height="360px" autoplay="yes"/>
+											<object classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://download.videolan.org/pub/videolan/vlc/last/win32/axvlc.cab"></object>
+											<!--
+											<video id="videoplayer" class="video-js vjs-default-skin"
+											  controls preload="auto" width="640" height="360" 
+											  >
+											</video>
+											-->						
+										</div>
+									</div>
+								<!--
+								</div>
+								<div class="row">
+								-->
+									<div class="col-xs-4-custom" id="selected_video_meta_data">										
+									</div>
+								</div>
+								<div class="row pull-left" id="video_tags">
+									
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default"  onClick='javascript:closeVideoPlayerDialog();'>Close</button>
+							</div>
+						</div>
+					</div>
+				<!-- </div> --> 
+			</div>			
+			<div id='add_camera_dialog_container' class='camera_editor_dialog_container dont-show'>
+				<!-- <div class="modal" id='video_dialog_container'> -->
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+								<h4 class="modal-title" id='edit_camera_header'>Add Camera</h4>
+							</div>
+							<div class="modal-body">
+								<!--
+								<p><ul>
+									<li>While adding the camera, make sure that camera name is unique.</li>
+									<li>Specify the Camera URL type correctly. Either RTSP / MJPEG.</li>
+								</p>
+								-->
+								<div class="row">
+									<div class="col-xs-2"><label>Name</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Name" id='camera_name' name='camera_name'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Type</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Type" id='camera_type' name='camera_type'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Location</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Location" id='camera_location' name='camera_location'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>URL</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera URL" id='camera_url' name='camera_url'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Recorder</label></div>
+									<div class="col-xs-10">
+										<div class="radio pull-left">
+											<div class="iradio_flat checked" style="position: relative;">
+												<input type="radio" id="recorder_type_rtsp" name="recorder_type" checked value="0" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);">
+											</div>
+											<label for="recorder_type_rtsp" class="">RTSP</label>
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<div class="iradio_flat checked" style="position: relative;">
+												<input type="radio" id="recorder_type_mjpeg" name="recorder_type" value="1" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);">
+											</div>
+											<label for="recorder_type_mjpeg" class="">MJPEG</label>
+										</div>
+									</div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Username</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Username" id='camera_username' name='camera_username'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Password</label></div><div class="col-xs-10"><input type='password' class='form-control'  placeholder="Camera Password" id='camera_password' name='camera_password'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Desc</label></div><div class="col-xs-10"><textarea id="camera_desc" name="camera_desc" class="form-control" placeholder="Camera Description" rows="3"></textarea></div>
+								</div>
+								<br/>
+								<div class="row  pull-left">
+									<div class="col-xs-12">
+									<span id='add_camera_error_status' class="label dont-show label-danger">Test</span>
+									</div>
+								</div>								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default"  onClick='javascript:closeCameraAddEditorDialog();'>Close</button>
+								<button type="button" class="btn btn-success"  onClick='javascript:addCamera();'>Add</button>
+							</div>
+						</div>
+					</div>
+				<!-- </div> --> 
+			</div>						
+			<div id='modify_camera_dialog_container' class='camera_editor_dialog_container dont-show'>
+				<!-- <div class="modal" id='video_dialog_container'> -->
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+								<h4 class="modal-title" id='edit_camera_header'>Modify Camera Details</h4>
+							</div>
+							<div class="modal-body">
+								<!--
+								<p><ul>
+									<li>While adding the camera, make sure that camera name is unique.</li>
+									<li>Specify the Camera URL type correctly. Either RTSP / MJPEG.</li>
+								</p>
+								-->
+								<div class="row">
+									<div class="col-xs-2"><label>Name</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Name" id='modify_camera_name' name='modify_camera_name' disabled></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Type</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Type" id='modify_camera_type' name='modify_camera_type'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Location</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Location" id='modify_camera_location' name='modify_camera_location'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>URL</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera URL" id='modify_camera_url' name='modify_camera_url'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Recorder</label></div>
+									<div class="col-xs-10">
+										<div class="radio pull-left">
+											<div class="iradio_flat checked" style="position: relative;">
+												<input type="radio" id="modify_recorder_type_rtsp" name="modify_recorder_type" checked value="0" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);">
+											</div>
+											<label for="modify_recorder_type_rtsp" class="">RTSP</label>
+											&nbsp;&nbsp;&nbsp;&nbsp;
+											<div class="iradio_flat checked" style="position: relative;">
+												<input type="radio" id="modify_recorder_type_mjpeg" name="modify_recorder_type" value="1" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);">
+											</div>
+											<label for="modify_recorder_type_mjpeg" class="">MJPEG</label>
+										</div>
+									</div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Username</label></div><div class="col-xs-10"><input class="form-control" placeholder="Camera Username" id='modify_camera_username' name='modify_camera_username'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Password</label></div><div class="col-xs-10"><input type='password' class='form-control'  placeholder="Camera Password" id='modify_camera_password' name='modify_camera_password'></div>
+								</div>
+								<br/>
+								<div class="row">
+									<div class="col-xs-2"><label>Desc</label></div><div class="col-xs-10"><textarea id="modify_camera_desc" name="modify_camera_desc" class="form-control" placeholder="Camera Description" rows="3"></textarea></div>
+								</div>
+								<br/>
+								<div class="row  pull-left">
+									<div class="col-xs-12">
+									<input type="hidden" id="modify_camera_id" value="" />
+									<span id='modify_camera_error_status' class="label  label-danger"></span>
+									</div>
+								</div>								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default"  onClick='javascript:closeCameraModifyEditorDialog();'>Close</button>
+								<button type="button" class="btn btn-success"  id="modify_camera_btn"  onClick='javascript:modifyCamera();'>Modify</button>
+							</div>
+						</div>
+					</div>
+				<!-- </div> --> 
+			</div>	
+			<div id='settings_dialog_container' class='dialog_container dont-show'>
+				<!-- <div class="modal" id='video_dialog_container'> -->
+					<div class="settings-modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+								<h4 class="modal-title">Settings</h4>
+							</div>
+							<div class="modal-body" id="user_settings_body">
+								
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default"  onClick='javascript:closeSettingsEditorDialog();'>Close</button>
+								<button type="button" class="btn btn-success" id="settings_update_btn"  onClick='javascript:updateSettings();'>Update</button>
+							</div>
+						</div>
+					</div>
+				<!-- </div> --> 
+			</div>						
+		</div>
+		<div id='filterVideos_container' class='dialog_container dont-show'>
+			<div class="filtervideos-modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+						<h4 class="modal-title" id='video_filter_camera_name'>Filter Videos</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-12">
+								<table class='video_filter_table'>
+									<tr>
+										<td>
+											<label>Start &nbsp;</label>
+										</td>
+										<td>
+											<!--
+											<div class="span5 col-md-5" id="sandbox-container">
+												<div class="input-group date">
+													<input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+												</div>
+											</div>
+											-->
+											
+											<select class="selectpicker" data-style="btn-primary" id="start_video_filter_month" data-width="100px" data-size="5">
+											</select>
+											<select class="selectpicker" data-style="btn-primary" id="start_video_filter_date" data-width="75px" data-size="10">
+											</select>
+											<select class="selectpicker" data-style="btn-primary" id="start_video_filter_year" data-width="90px"  data-size="5">
+											</select>
+											
+											
+											<select class="selectpicker" data-style="btn-primary" id="start_video_filter_hour" data-width="100px"  data-size="15">
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label>End &nbsp;</label>
+										</td>
+										<td>
+											<select class="selectpicker" data-style="btn-primary" id="end_video_filter_month" data-width="100px"  data-size="5">
+											</select>
+											<select class="selectpicker" data-style="btn-primary" id="end_video_filter_date" data-width="75px"  data-size="10">
+											</select>
+											<select class="selectpicker" data-style="btn-primary" id="end_video_filter_year" data-width="90px"  data-size="5">
+											</select>
+											<select class="selectpicker" data-style="btn-primary" id="end_video_filter_hour" data-width="100px"  data-size="15">
+											</select>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="row  pull-left">
+							<div class="col-xs-12">
+							<input type="hidden" id="selected_camera_id_video_filter" value="" />
+							<span id='video_filter_error_status' class="label  label-danger"></span>
+							</div>
+						</div>							
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"  onClick='javascript:hideVideoFilterDlgNew();'>Close</button>
+						<button type="button" class="btn btn-success" id="video_filter_btn"  onClick='javascript:filterVideosNew();'>Filter</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id='backupVideos_container' class='dialog_container dont-show'>
+			<div class="backupVideos-modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+						<h4 class="modal-title" id='backup_videso_camera_name'></h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="col-xs-8">
+									<div class="panel panel-primary">
+										<div class="panel-heading">
+											<h3 class="panel-title" id="selected_videos_for_backup">
+												<span>
+													No. of files:<span class="badge badge-default" id="totalSelectedFiles"></span>&nbsp;&nbsp;
+													Size:<span class="badge badge-default" id="totalSelectedFilesSize"></span>
+													Duration:<span class="badge badge-default" id="totalSelectedFilesDuration"></span>
+												</span>
+											</h3>
+										</div>
+										<div class="panel-body">
+											<div id="video_list_for_backup_container">
+												<!--
+												<ul class="list-group" id="video_list_for_backup">
+												</ul>
+												-->
+												<table id="video_list_for_backup" class="table">
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-4">
+									<div class="panel panel-primary">
+										<div class="panel-heading">
+											<h3 class="panel-title">
+												List of USB devices
+											</h3>
+										</div>
+										<div class="panel-body">
+											<div id="video_devices_for_backup_container">
+												<table id="video_devices_for_backup" class="table">
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row  pull-left">
+							<div class="col-xs-12">
+							<input type="hidden" id="selected_videos_for_backup" value="" />
+							<span id='video_backup_error_status' class="label  label-danger"></span>
+							</div>
+						</div>							
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"  onClick='javascript:hideBackupVideosDlgNew();'>Close</button>
+						<button type="button" class="btn btn-success" id="backup_videos_btn"  onClick='javascript:backupVideosNew();'>Backup</button>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div id='backupVideosStatus_container' class='dialog_container dont-show'>
+			<div class="backupVideosStatus-modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+						<h4 class="modal-title" id='backup_videso_status'>Backup Video Status</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="video_backup_status_container">
+									<table id="video_backup_status" class="table">
+									</table>
+								</div>							
+							</div>
+						</div>
+						<div class="row  pull-left">
+							<div class="col-xs-12">
+							<span id='video_backup_status' class="label  label-danger"></span>
+							</div>
+						</div>
+						
+						<div id="backup_video_status_log_container" class="row dont-show">
+							<div class="col-xs-12">
+								<span>&nbsp;</span>
+							</div>
+							<div class="col-xs-12 pull-left">
+								<span class="pull-left"><strong>Log Details</strong></span>
+							</div>
+							<div class="col-xs-12">
+								<textarea class="form-control" cols="25" rows="5" id="backup_video_status_log"></textarea>
+							</div>
+							
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"  onClick='javascript:hideBackupVideoStatusDlgNew();'>Close</button>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div id='addUser_container' class='dialog_container dont-show'>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+						<h4 class="modal-title">Add User</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-4"><label>User Name</label></div><div class="col-xs-8"><input class="form-control" placeholder="User Name" id='user_name_new' name='user_name_new'></div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Password</label></div><div class="col-xs-8"><input class="form-control" placeholder="Password" id='password_new' name='password_new' type="password"></div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Confirm Password</label></div><div class="col-xs-8"><input class="form-control" placeholder="Confirm Password" id='confirm_password_new' name='confirm_password_new' type="password"></div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Email</label></div><div class="col-xs-8"><input class="form-control" placeholder="Email" id='email_new' name='email_new'></div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Is Admin ?</label></div>
+							<div class="col-xs-8">
+								<div class="btn-group  pull-left" data-toggle="buttons"><label class="btn btn-primary active"><input id="isadmin_new" type="checkbox" checked autocomplete="off" name="isadmin_new"><span class="glyphicon glyphicon-ok"></span></label></div>
+							</div>
+						</div>
+						<div class="row  pull-left">
+							<div class="col-xs-12">
+							&nbsp;
+							</div>
+						</div>							
+						<div class="row  pull-left">
+							<div class="col-xs-12">
+							<span id='add_user_error_new' class="label  label-danger"></span>
+							</div>
+						</div>							
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"  onClick='javascript:hideAddUserDlgNew();'>Close</button>
+						<button type="button" class="btn btn-success" id="addUserBtn" onClick='javascript:addUserNew();'>Add</button>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div id='modifyUser_container' class='dialog_container dont-show'>
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> -->
+						<h4 class="modal-title">Modify User</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-4"><label>Select User</label></div>
+							<div class="col-xs-8">
+								<select class="selectpicker" data-style="btn-primary" id="users_list_for_modification" data-width="100%"  data-size="15" onChange="javascript:loadSelectedUserDetails(this)">
+								</select>
+							</div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Password</label></div><div class="col-xs-8"><input class="form-control" placeholder="Password" id='modify_password_new' name='modify_password_new' type="password"></div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Confirm Password</label></div><div class="col-xs-8"><input class="form-control" placeholder="Confirm Password" id='modify_confirm_password_new' name='modify_confirm_password_new' type="password"></div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Email</label></div><div class="col-xs-8"><input class="form-control" placeholder="Email" id='modify_email_new' name='modify_email_new'></div>
+						</div>
+						<br/>
+						<div class="row">
+							<div class="col-xs-4"><label>Is Admin ?</label></div>
+							<div class="col-xs-8">
+								<div class="btn-group  pull-left" data-toggle="buttons"><label class="btn btn-primary active" id="modify_isadmin_selection"><input id="modify_isadmin_new" type="checkbox" checked autocomplete="off" name="modify_isadmin_new"><span class="glyphicon glyphicon-ok"></span></label></div>
+							</div>
+						</div>
+						<div class="row  pull-left">
+							<div class="col-xs-12">
+							&nbsp;
+							</div>
+						</div>							
+						<div class="row  pull-left">
+							<div class="col-xs-12">
+							<span id='modify_user_error_new' class="label  label-danger"></span>
+							</div>
+						</div>							
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default"  onClick='javascript:hideModifyUserDlgNew();'>Close</button>
+						<button type="button" class="btn btn-success" id="addUserBtn" onClick='javascript:modifyUserNew();'>Modify</button>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div class='app-footer'>
+			<div class="container">
+				<div class="clearfix">
+					<div class="footer-copyright-custom text-center">Copyright © 2014 VSSP. All rights reserved.</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

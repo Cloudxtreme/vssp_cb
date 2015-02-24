@@ -1,0 +1,68 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          skeleton
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Example initscript
+# Description:       This file should be used to construct scripts to be
+#                    placed in /etc/init.d.
+### END INIT INFO
+
+#!/bin/bash
+#
+RETVAL=0;
+export PATH=/home/linaro/bin:/usr/local/bin:$PATH
+APP_FOLDER=/home/linaro/testvssp
+
+show_status() {
+    ps -ef | grep node | grep -v 'grep'
+}
+start() {
+    echo "Starting VSSP Board Services"
+    cd $APP_FOLDER
+    start-stop-daemon --start --chuid linaro --start --exec $APP_FOLDER/start_board_servers.sh
+}
+
+stop() {
+    echo "Stopping VSSP Board Services"
+    cd $APP_FOLDER
+    start-stop-daemon --start --chuid linaro --start --exec $APP_FOLDER/stop_board_servers.sh
+    pkill node
+}
+
+cleanlog() {
+    echo "Cleaning the log environment ..."
+    cd $APP_FOLDER
+    start-stop-daemon --start --chuid linaro --start --exec $APP_FOLDER/log_clean.sh
+}
+
+restart() {
+    stop
+    start
+}
+
+case "$1" in
+start)
+  start
+;;
+stop)
+  stop
+;;
+restart)
+  restart
+;;
+status)
+  show_status
+;;
+cleanlog)
+  cleanlog
+;;
+*)
+
+echo $"Usage: $0 {start|stop|restart|status}"
+exit 1
+esac
+
+exit $RETVAL  :

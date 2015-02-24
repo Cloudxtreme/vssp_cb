@@ -1,0 +1,14 @@
+{
+	"record_service_types" : [
+		{
+			"record_service_type_id" : 1,
+			"record_service_type_name" : "Record Now",
+			"record_service_type_desc" : "Starts the recording immediately"
+		},
+		{
+			"record_service_type_id" : 2,
+			"record_service_type_name" : "Scheduled Record",
+			"record_service_type_desc" : "Starts the recording based on Scheduled details"
+		}
+	]
+}

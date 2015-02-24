@@ -1,0 +1,126 @@
+{
+  "id": "1",
+  "model": "Test device model updated",
+  "name": "FirstBoard",
+  "users": [
+    {
+      "username": "saraav",
+      "password": "x6UOGx77DCI22SXP+w91ZQ==",
+      "email": "saraav@gmail.com",
+	  "id" : 1
+    },
+    {
+      "username": "admin",
+      "password": "9YX3eZ2dH8Iq/d899fvoIQ==",
+      "email": "saraav@gmail.com",
+	  "id" : 2
+    },
+    {
+      "username": "new_normal_user",
+      "password": "8IhdSCzTVrZEdXLYAv6FOA==",
+      "email": "testuser@gmail.com",
+	  "id": 3
+    }
+  ],
+  "adminCredentials": [
+    {
+      "username": "saraav",
+      "password": "x6UOGx77DCI22SXP+w91ZQ==",
+      "email": "saraav@gmail.com",
+	  "id" : 1
+    },
+    {
+      "username": "admin",
+      "password": "9YX3eZ2dH8Iq/d899fvoIQ==",
+      "email": "saraav@gmail.com",
+	  "id" : 2
+    },
+    {
+      "username": "admin123",
+      "password": "8IhdSCzTVrZEdXLYAv6FOA==",
+      "email": "tes@gmail.com",
+	  "id" : 3
+    }
+  ],
+  "max_storage_size": "24000000",
+  "notification_interval_in_seconds": "240",
+  "system_notification_server": "http://localhost:9090/systemnotification",
+  "site_server": "http://localhost:7070/",
+  "user_config_options": {
+    "DAYS_TO_KEEP_VIDEO_FILES": {
+      "key": "DAYS_TO_KEEP_VIDEO_FILES",
+      "display": "No. of days to keep the video files:",
+      "type": "numeric",
+      "values": [
+        "",
+        ""
+      ]
+    },
+    "MAX_VIDEO_DURATION_FOR_VIDEO_CONCATENATION_IN_SECONDS": {
+      "key": "MAX_VIDEO_DURATION_FOR_VIDEO_CONCATENATION_IN_SECONDS",
+      "display": "Maximum no. of seconds for each video:",
+      "type": "numeric",
+      "values": [
+        "",
+        ""
+      ]
+    },
+    "BUF_VIDEO_LENGTH_TO_BE_ADDED_SECONDS": {
+      "key": "BUF_VIDEO_LENGTH_TO_BE_ADDED_SECONDS",
+      "display": "No. of seconds to overlap between videos:",
+      "type": "numeric",
+      "values": [
+        "",
+        ""
+      ]
+    },
+    "USER_EMAIL_LIST": {
+      "key": "USER_EMAIL_LIST",
+      "display": "Email Address (comma separated):",
+      "type": "textarea",
+      "values": [
+        "",
+        ""
+      ]
+    },
+    "FILE_NAME_DATE_TIME_FORMAT": {
+      "key": "FILE_NAME_DATE_TIME_FORMAT",
+      "display": "Video File name Date time format:",
+      "type": "Option",
+      "values": [
+        "%d_%m_%y_%H_%M_%S",
+        "%m_%d_%y_%H_%M_%S",
+        "%d_%b_%Y_%H_%M_%S",
+        "%d_%m_%y_%I_%M_%S_%p"
+      ]
+    },
+    "CAPTURE_VIDEO_DATE_TIME_FORMAT": {
+      "key": "CAPTURE_VIDEO_DATE_TIME_FORMAT",
+      "display": "Video File Captured Date time format:",
+      "type": "Option",
+      "values": [
+        "%F %T",
+        "%D %T",
+        "%D %r"
+      ]
+    },
+    "ENABLE_VIDEO_START_STOP_NOTIFICATION": {
+      "key": "ENABLE_VIDEO_START_STOP_NOTIFICATION",
+      "display": "Send Video Record Start / Stop Alert Notification via email:",
+      "type": "Check",
+      "values": []
+    },
+    "ENABLE_VIDEO_RECORD_FAILURE_NOTIFICATION": {
+      "key": "ENABLE_VIDEO_RECORD_FAILURE_NOTIFICATION",
+      "display": "Send Alert notification when video record failure via email:",
+      "type": "Check",
+      "values": []
+    },
+    "ENABLE_BOARD_START_STATUS_NOTIFICATION": {
+      "key": "ENABLE_BOARD_START_STATUS_NOTIFICATION",
+      "display": "Send email notification when board starts:",
+      "type": "Check",
+      "values": []
+    }
+  }
+}

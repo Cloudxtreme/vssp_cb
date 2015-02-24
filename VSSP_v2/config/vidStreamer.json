@@ -1,0 +1,8 @@
+{
+	"mode": "development",
+	"forceDownload": false,
+	"random": false,
+	"rootFolder": '/store/',
+	"rootPath": "videos/",
+	"server": "VidStreamer.js/0.1"
+}

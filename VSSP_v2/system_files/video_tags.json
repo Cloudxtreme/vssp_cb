@@ -1,0 +1,24 @@
+{
+	"video_tags" : [
+		{
+			"video_tag_id" : 1,
+			"video_tag_name" : "Good",
+			"video_tag_desc" : "Video tag represents Good"
+		},
+		{
+			"video_tag_id" : 2,
+			"video_tag_name" : "Excellent",
+			"video_tag_desc" : "Video tag represents Excellent"
+		},
+		{
+			"video_tag_id" : 3,
+			"video_tag_name" : "I Like It",
+			"video_tag_desc" : "Video tag represents I Like It"
+		},
+		{
+			"video_tag_id" : 4,
+			"video_tag_name" : "Must Watch",
+			"video_tag_desc" : "Video tag represents Must Watch"
+		}
+	]
+}

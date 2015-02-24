@@ -1,0 +1,2127 @@
+2014-10-04 05:49:28,saraav,User:saraav has successfully logged in
+2014-10-04 05:52:48,admin,User:admin has successfully logged in as Admin
+2014-10-04 05:54:00,saraav,Camera:WIFICamera has been added successfully
+2014-10-04 05:54:35,saraav,Video recording started in Camera:WIFICamera - Video Batch id:04_10_14_05_54_23_AM
+2014-10-04 05:57:26,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:04_10_14_05_54_23_AM
+2014-10-04 06:22:48,saraav,Video recording started in Camera:WIFICamera - Video Batch id:04_10_14_06_22_36_AM
+2014-10-04 06:23:14,saraav,Video recording started in Camera:TestCamera - Video Batch id:04_10_14_06_23_02_AM
+2014-10-04 06:29:13,saraav,Video recording stopped in Camera:TestCamera - Video Batch id:04_10_14_06_23_02_AM
+2014-10-04 10:39:33,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:04_10_14_06_22_36_AM
+2014-10-04 14:42:07,saraav,User:saraav has successfully logged in
+2014-10-04 14:45:57,admin,User:admin has successfully logged in as Admin
+2014-10-04 14:57:59,saraav,Video recording started in Camera:TestCamera - Video Batch id:04_10_14_02_57_47_PM
+2014-10-04 15:04:49,saraav,Video recording stopped in Camera:TestCamera - Video Batch id:04_10_14_02_57_47_PM
+2014-10-04 15:10:02,saraav,Video recording started in Camera:TestCamera - Video Batch id:04_10_14_03_09_50_PM
+2014-10-04 15:11:14,saraav,Video recording stopped in Camera:TestCamera - Video Batch id:04_10_14_03_09_50_PM
+2014-10-04 15:11:22,saraav,Camera:TestCamera has been deleted successfully
+2014-10-04 15:12:52,saraav,Camera:ZaviCamera has been added successfully
+2014-10-04 15:13:15,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:04_10_14_03_13_03_PM
+2014-10-04 15:17:57,saraav,Video recording started in Camera:WIFICamera - Video Batch id:04_10_14_03_17_45_PM
+2014-10-04 16:25:29,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:04_10_14_03_13_03_PM
+2014-10-04 16:25:34,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:04_10_14_03_17_45_PM
+2014-10-04 18:44:34,saraav,Video recording started in Camera:WIFICamera - Video Batch id:04_10_14_06_44_22_PM
+2014-10-04 18:44:52,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:04_10_14_06_44_40_PM
+2014-10-04 21:10:05,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-05 05:32:24,saraav,User:saraav has successfully logged in
+2014-10-05 05:33:13,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:04_10_14_06_44_40_PM
+2014-10-05 05:33:17,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:04_10_14_06_44_22_PM
+2014-10-05 11:53:56,saraav,User:saraav has successfully logged in
+2014-10-06 07:25:56,saraav,User:saraav has successfully logged in
+2014-10-06 07:30:48,saraav,Video recording started in Camera:WIFICamera - Video Batch id:06_10_14_07_30_36_AM
+2014-10-06 07:32:57,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:06_10_14_07_32_44_AM
+2014-10-06 11:27:56,saraav,User:saraav has successfully logged in
+2014-10-06 11:30:10,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:06_10_14_07_32_44_AM
+2014-10-06 11:30:16,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:06_10_14_07_30_36_AM
+2014-10-07 06:08:25,admin,User:admin has successfully logged in as Admin
+2014-10-07 06:08:30,saraav,Camera:ZaviCamera video files have been cleared successfully
+2014-10-07 16:33:12,saraav,User:saraav has successfully logged in
+2014-10-07 18:53:33,admin,User:admin has successfully logged in as Admin
+2014-10-07 18:54:12,saraav,Cleared all the files (video store) in all the cameras.
+2014-10-07 18:55:53,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:07_10_14_06_55_41_PM
+2014-10-07 18:59:16,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:07_10_14_06_55_41_PM
+2014-10-07 19:01:52,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:07_10_14_07_01_40_PM
+2014-10-07 19:06:17,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:07_10_14_07_01_40_PM
+2014-10-07 19:13:45,saraav,Cleared all the files (video store) in all the cameras.
+2014-10-07 19:14:17,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:07_10_14_07_14_05_PM
+2014-10-07 19:17:37,saraav,Video recording started in Camera:WIFICamera - Video Batch id:07_10_14_07_17_25_PM
+2014-10-08 00:40:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-08 00:40:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-08 00:41:13,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-08 04:11:19,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:07_10_14_07_17_25_PM
+2014-10-08 04:11:24,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:07_10_14_07_14_05_PM
+2014-10-08 19:25:58,saraav,User:saraav has successfully logged in
+2014-10-09 03:52:26,saraav,User:saraav has successfully logged in
+2014-10-09 08:57:08,saraav,User:saraav has successfully logged in
+2014-10-09 11:23:04,admin,User:admin has successfully logged in as Admin
+2014-10-09 11:27:35,saraav,Cleared all the files (video store) in all the cameras.
+2014-10-09 11:34:02,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:09_10_14_11_33_50_AM
+2014-10-09 11:37:49,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:09_10_14_11_33_50_AM
+2014-10-09 11:53:44,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:09_10_14_11_53_32_AM
+2014-10-09 11:58:58,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:09_10_14_11_53_32_AM
+2014-10-09 12:02:14,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:09_10_14_12_02_01_PM
+2014-10-09 12:03:48,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:09_10_14_12_02_01_PM
+2014-10-09 12:06:20,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:09_10_14_12_06_08_PM
+2014-10-09 12:11:50,saraav,Video recording started in Camera:WIFICamera - Video Batch id:09_10_14_12_11_37_PM
+2014-10-09 12:52:15,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:25:32,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:36:02,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:36:32,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:36:33,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:36:33,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:37:02,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:37:32,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:38:02,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:38:32,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:39:02,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:39:32,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:40:02,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:40:32,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:41:02,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:41:32,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-09 18:53:33,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:09_10_14_12_11_37_PM
+2014-10-10 04:03:22,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:09_10_14_12_06_08_PM
+2014-10-10 04:31:30,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:10_10_14_04_31_18_AM
+2014-10-10 15:18:36,saraav,User:saraav has successfully logged in
+2014-10-10 16:31:58,saraav,User:saraav has successfully logged in
+2014-10-10 16:32:55,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:10_10_14_04_31_18_AM
+2014-10-11 06:45:14,admin,User:admin has successfully logged in as Admin
+2014-10-11 06:45:31,saraav,Camera:WIFICamera video files have been cleared successfully
+2014-10-11 06:45:50,saraav,Camera:WIFICamera video files have been cleared successfully
+2014-10-11 06:48:07,saraav,Video recording started in Camera:WIFICamera - Video Batch id:11_10_14_06_47_54_AM
+2014-10-11 06:49:35,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:11_10_14_06_47_54_AM
+2014-10-11 06:56:06,saraav,Camera:WIFICamera video files have been cleared successfully
+2014-10-11 06:56:24,saraav,Video recording started in Camera:WIFICamera - Video Batch id:11_10_14_06_56_12_AM
+2014-10-11 07:01:17,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:11_10_14_07_01_05_AM
+2014-10-11 10:09:17,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-11 10:09:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-11 10:10:20,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-11 10:10:27,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-11 10:21:05,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:11_10_14_07_01_05_AM
+2014-10-11 10:21:11,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:11_10_14_06_56_12_AM
+2014-10-11 10:40:24,saraav,User:saraav has successfully logged in
+2014-10-11 10:49:03,saraav,User:saraav has successfully logged in
+2014-10-11 10:50:34,saraav,User:saraav has successfully logged out.
+2014-10-11 10:51:20,saraav,User:saraav has successfully logged in
+2014-10-11 10:59:21,saraav,User:saraav has successfully logged in
+2014-10-11 11:03:01,admin,User:admin has successfully logged in as Admin
+2014-10-11 11:05:21,admin,User:admin has successfully logged in as Admin
+2014-10-11 11:05:55,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:11_10_14_11_05_43_AM
+2014-10-11 11:15:03,saraav,Video recording started in Camera:WIFICamera - Video Batch id:11_10_14_11_14_51_AM
+2014-10-11 11:20:20,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:11_10_14_11_05_43_AM
+2014-10-11 11:20:53,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:11_10_14_11_14_51_AM
+2014-10-11 11:21:55,saraav,Video recording started in Camera:WIFICamera - Video Batch id:11_10_14_11_21_42_AM
+2014-10-11 11:23:03,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:11_10_14_11_21_42_AM
+2014-10-11 11:23:31,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:11_10_14_11_23_19_AM
+2014-10-11 11:23:56,saraav,Video recording started in Camera:WIFICamera - Video Batch id:11_10_14_11_23_44_AM
+2014-10-11 11:28:10,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:11_10_14_11_23_44_AM
+2014-10-11 11:28:41,saraav,Video recording started in Camera:WIFICamera - Video Batch id:11_10_14_11_28_29_AM
+2014-10-11 13:27:43,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-11 14:58:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-11 14:58:44,saraav,User:saraav has successfully logged in
+2014-10-11 15:37:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-11 18:10:39,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:11_10_14_11_28_29_AM
+2014-10-11 19:18:03,saraav,Video recording started in Camera:WIFICamera - Video Batch id:11_10_14_07_17_51_PM
+2014-10-12 05:41:25,saraav,User:saraav has successfully logged in
+2014-10-12 08:55:16,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 09:31:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 10:44:18,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 11:58:19,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 13:47:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 15:34:22,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 16:10:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 17:15:13,saraav,User:saraav has successfully logged in
+2014-10-12 17:23:24,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 19:12:25,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 19:48:26,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 20:24:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 21:08:27,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 21:51:28,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 22:34:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-12 23:18:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 00:02:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 00:45:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 01:24:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 02:34:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 03:10:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 04:59:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 05:35:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 07:24:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 08:01:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 08:38:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 09:14:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 10:27:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 11:03:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 12:19:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 12:58:13,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 13:41:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 14:25:14,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 15:45:19,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:45:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:45:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:45:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:46:19,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:46:19,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:46:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:46:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:47:16,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:47:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:47:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:48:19,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:48:20,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:48:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:49:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:49:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:50:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:50:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 15:50:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:51:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:51:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:52:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:52:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:53:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:53:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:54:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:54:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:55:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:55:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:56:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:56:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:57:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:57:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:58:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:58:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:59:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 15:59:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:00:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:00:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:01:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:01:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:02:17,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:02:47,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:03:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:03:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:04:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:04:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:05:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:05:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:06:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:06:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:07:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:07:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:08:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:08:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:09:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:09:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:10:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:10:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:11:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:11:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:12:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:12:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:12:50,saraav,User:saraav has successfully logged in
+2014-10-13 16:13:19,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:13:49,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:14:18,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:14:48,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:15:21,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:15:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:15:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:16:21,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:16:21,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:16:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:16:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:17:21,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:17:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:17:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:18:21,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:18:21,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:18:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:18:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:19:21,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:19:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:19:51,saraav,Camera:WIFICamera went down while recording is in-progress
+2014-10-13 16:19:55,saraav,User:saraav has successfully logged in
+2014-10-13 16:19:57,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:11_10_14_07_17_51_PM
+2014-10-13 16:19:59,saraav,User:saraav has successfully logged out.
+2014-10-13 16:20:16,saraav,User:saraav has successfully logged in
+2014-10-13 16:20:17,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:11_10_14_11_23_19_AM
+2014-10-13 16:20:20,saraav,User:saraav has successfully logged out.
+2014-10-13 16:52:09,saraav,Video recording started in Camera:WIFICamera - Video Batch id:13_10_14_04_51_57_PM
+2014-10-13 16:52:30,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:13_10_14_04_52_18_PM
+2014-10-13 17:06:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 18:19:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 18:55:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 19:39:25,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 20:22:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 21:06:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 22:34:28,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-13 23:18:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 00:45:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 01:23:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 02:35:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 03:28:25,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:13_10_14_04_52_18_PM
+2014-10-14 03:28:31,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:13_10_14_04_51_57_PM
+2014-10-14 03:33:23,saraav,Video recording started in Camera:WIFICamera - Video Batch id:14_10_14_03_33_11_AM
+2014-10-14 03:33:41,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:14_10_14_03_33_29_AM
+2014-10-14 03:50:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 04:27:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 06:18:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 06:54:17,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 07:30:17,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 08:05:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 08:06:18,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 08:06:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 08:06:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 08:07:21,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 08:07:21,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 09:19:19,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 09:56:20,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 11:46:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 12:29:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 13:42:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 14:54:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 14:57:53,saraav,User:saraav has successfully logged in
+2014-10-14 15:29:14,saraav,User:saraav has successfully logged in
+2014-10-14 15:29:14,saraav,User:saraav has successfully logged in
+2014-10-14 15:29:28,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:14_10_14_03_29_16_PM
+2014-10-14 15:34:02,saraav,User:saraav has successfully logged in
+2014-10-14 15:34:02,saraav,User:saraav has successfully logged in
+2014-10-14 15:34:15,saraav,Video recording started in Camera:WIFICamera - Video Batch id:14_10_14_03_34_03_PM
+2014-10-14 15:34:19,saraav,User:saraav has successfully logged out.
+2014-10-14 16:29:03,saraav,User:saraav has successfully logged in
+2014-10-14 16:29:04,saraav,User:saraav has successfully logged in
+2014-10-14 16:29:15,admin,User:admin has successfully logged in as Admin
+2014-10-14 16:29:16,saraav,Video recording started in Camera:WIFICamera - Video Batch id:14_10_14_04_29_04_PM
+2014-10-14 16:29:19,saraav,User:saraav has successfully logged out.
+2014-10-14 16:30:06,saraav,User:saraav has successfully logged in
+2014-10-14 16:30:08,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:14_10_14_04_29_04_PM
+2014-10-14 16:30:11,saraav,User:saraav has successfully logged out.
+2014-10-14 16:30:21,saraav,User:saraav has successfully logged in
+2014-10-14 16:30:23,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:14_10_14_04_29_05_PM
+2014-10-14 16:30:24,saraav,User:saraav has successfully logged out.
+2014-10-14 16:32:29,saraav,Video recording started in Camera:WIFICamera - Video Batch id:14_10_14_04_32_17_PM
+2014-10-14 16:33:16,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:14_10_14_04_32_17_PM
+2014-10-14 16:33:29,saraav,User:saraav has successfully logged in
+2014-10-14 16:34:50,saraav,Video recording started in Camera:WIFICamera - Video Batch id:14_10_14_04_34_38_PM
+2014-10-14 16:36:21,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:14_10_14_04_36_09_PM
+2014-10-14 17:29:14,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 18:44:15,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 19:22:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 20:05:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 20:48:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 21:31:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 22:15:19,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-14 22:58:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 00:25:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 01:05:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 02:16:22,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 02:53:23,saraav,User:saraav has successfully logged in
+2014-10-15 03:06:52,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:14_10_14_04_36_09_PM
+2014-10-15 03:06:58,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:14_10_14_04_34_38_PM
+2014-10-15 14:12:40,saraav,User:saraav has successfully logged in
+2014-10-15 14:18:50,admin,User:admin has successfully logged in as Admin
+2014-10-15 14:21:55,admin,User:admin has successfully logged in as Admin
+2014-10-15 14:29:50,admin,User:admin has successfully logged in as Admin
+2014-10-15 14:32:41,admin,User:admin has successfully logged in as Admin
+2014-10-15 14:34:01,admin,User:admin has successfully logged in as Admin
+2014-10-15 17:39:56,admin,User:admin has successfully logged in as Admin
+2014-10-15 18:33:36,admin,User:admin has successfully logged in as Admin
+2014-10-15 19:19:33,saraav,Video recording started in Camera:WIFICamera - Video Batch id:15_10_14_07_19_20_PM
+2014-10-15 19:19:51,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:15_10_14_07_19_39_PM
+2014-10-15 20:10:13,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 20:53:15,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 21:36:16,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 22:19:16,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-15 23:02:17,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 00:28:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 01:43:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 02:40:12,saraav,User:saraav has successfully logged in
+2014-10-16 02:42:34,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:15_10_14_07_19_20_PM
+2014-10-16 02:43:17,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:15_10_14_07_19_39_PM
+2014-10-16 02:43:38,admin,User:admin has successfully logged in as Admin
+2014-10-16 03:10:30,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:16_10_14_03_10_18_AM
+2014-10-16 03:10:50,saraav,Video recording started in Camera:WIFICamera - Video Batch id:16_10_14_03_10_38_AM
+2014-10-16 03:32:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 03:42:20,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:16_10_14_03_10_38_AM
+2014-10-16 03:42:34,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:16_10_14_03_10_18_AM
+2014-10-16 04:09:28,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:16_10_14_04_09_16_AM
+2014-10-16 04:09:48,saraav,Video recording started in Camera:WIFICamera - Video Batch id:16_10_14_04_09_36_AM
+2014-10-16 04:42:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 05:52:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 06:23:33,saraav,User:saraav has successfully logged in
+2014-10-16 06:27:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 07:38:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 08:14:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 08:49:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 09:24:17,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 10:35:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 11:45:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 12:21:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 12:56:23,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 13:31:24,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 14:06:25,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 14:41:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 15:18:12,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 16:02:28,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 16:46:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 17:25:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 18:00:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 19:11:18,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 19:54:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 20:31:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 21:15:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 21:59:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 22:43:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-16 23:27:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-17 03:50:50,saraav,User:saraav has successfully logged in
+2014-10-17 03:50:51,saraav,User:saraav has successfully logged in
+2014-10-17 03:51:03,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:17_10_14_03_50_51_AM
+2014-10-17 03:51:05,saraav,User:saraav has successfully logged out.
+2014-10-17 03:53:01,saraav,User:saraav has successfully logged in
+2014-10-17 04:00:12,admin,User:admin has successfully logged in as Admin
+2014-10-17 10:52:46,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:17_10_14_03_50_52_AM
+2014-10-17 10:53:38,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:17_10_14_03_50_51_AM
+2014-10-17 15:49:00,saraav,User:saraav has successfully logged in
+2014-10-18 04:27:54,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:18_10_14_04_27_42_AM
+2014-10-18 04:28:23,saraav,Video recording started in Camera:WIFICamera - Video Batch id:18_10_14_04_28_11_AM
+2014-10-18 04:30:53,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:18_10_14_04_28_11_AM
+2014-10-18 04:31:04,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:18_10_14_04_27_42_AM
+2014-10-18 04:40:10,saraav,Video recording started in Camera:WIFICamera - Video Batch id:18_10_14_04_39_57_AM
+2014-10-18 04:40:28,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:18_10_14_04_40_16_AM
+2014-10-18 05:02:08,saraav,User:saraav has successfully logged in
+2014-10-18 07:42:55,saraav,User:saraav has successfully logged in
+2014-10-18 07:45:03,saraav,User:saraav has successfully logged in
+2014-10-18 07:45:29,saraav,User:saraav has successfully logged in
+2014-10-18 07:45:31,saraav,User:new_normal_user has been successfully created in the system
+2014-10-18 07:46:15,saraav,User:saraav has successfully logged in
+2014-10-18 07:51:03,saraav,User:saraav has successfully logged in
+2014-10-18 07:53:24,saraav,User:saraav has successfully logged in
+2014-10-18 07:53:25,saraav,User:new_normal_user has been successfully deleted in the system
+2014-10-18 07:53:25,saraav,User:saraav has successfully logged out.
+2014-10-18 07:53:50,saraav,User:saraav has successfully logged in
+2014-10-18 07:53:50,saraav,User:new_normal_user has been successfully created in the system
+2014-10-18 07:53:52,saraav,User:saraav has successfully logged out.
+2014-10-18 07:55:04,saraav,User:saraav has successfully logged in
+2014-10-18 07:55:05,saraav,User:new_normal_user has been successfully deleted in the system
+2014-10-18 07:55:05,saraav,User:saraav has successfully logged out.
+2014-10-18 08:11:10,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:18_10_14_04_40_16_AM
+2014-10-18 08:11:23,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:18_10_14_04_39_57_AM
+2014-10-18 12:17:29,saraav,Video recording started in Camera:WIFICamera - Video Batch id:18_10_14_12_17_17_PM
+2014-10-18 12:17:51,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:18_10_14_12_17_39_PM
+2014-10-18 12:18:45,saraav,User:saraav has successfully logged in
+2014-10-18 12:18:45,saraav,User:new_normal_user has been successfully created in the system
+2014-10-18 12:18:46,saraav,User:saraav has successfully logged out.
+2014-10-18 12:18:49,saraav,User:saraav has successfully logged out.
+2014-10-18 12:19:12,new_normal_user,User:new_normal_user has successfully logged in
+2014-10-18 12:22:39,saraav,User:saraav has successfully logged in
+2014-10-18 12:23:00,saraav,User:saraav has successfully logged in
+2014-10-18 12:23:01,saraav,User:admin123 has been successfully created in the system
+2014-10-18 12:23:03,saraav,User:saraav has successfully logged out.
+2014-10-18 12:23:39,new_normal_user,Video recording stopped in Camera:WIFICamera - Video Batch id:18_10_14_12_17_17_PM
+2014-10-18 12:23:47,new_normal_user,Video recording stopped in Camera:ZaviCamera - Video Batch id:18_10_14_12_17_39_PM
+2014-10-18 12:26:12,saraav,User:saraav has successfully logged in
+2014-10-18 12:26:12,saraav,User:admin123 (type:normal) has been successfully deleted in the system
+2014-10-18 12:26:13,saraav,User:saraav has successfully logged out.
+2014-10-18 12:47:50,new_normal_user,User:new_normal_user has successfully logged out.
+2014-10-18 12:48:01,saraav,User:saraav has successfully logged in
+2014-10-18 12:48:38,saraav,User:saraav has successfully logged in
+2014-10-18 12:48:59,saraav,User:saraav has successfully logged in
+2014-10-18 12:49:07,saraav,User:saraav has successfully logged in
+2014-10-18 12:49:07,saraav,User:admin123 with admin credentials has been successfully created in the system
+2014-10-18 12:49:08,saraav,User:saraav has successfully logged out.
+2014-10-18 12:49:20,admin123,User:admin123 has successfully logged in as Admin
+2014-10-18 12:50:00,saraav,Video recording started in Camera:WIFICamera - Video Batch id:18_10_14_12_49_48_PM
+2014-10-18 12:50:20,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:18_10_14_12_50_08_PM
+2014-10-18 14:34:00,saraav,User:saraav has successfully logged in
+2014-10-19 07:48:55,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:18_10_14_12_50_08_PM
+2014-10-19 07:49:07,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:18_10_14_12_49_48_PM
+2014-10-19 08:02:17,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:19_10_14_08_02_05_AM
+2014-10-19 11:57:31,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:19_10_14_08_02_05_AM
+2010-01-01 00:01:58,saraav,User:saraav has successfully logged in
+2010-01-01 00:42:23,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:01_01_10_12_42_11_AM
+2010-01-01 01:16:59,admin,User:admin has successfully logged in as Admin
+2010-01-01 01:17:09,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:01_01_10_12_42_11_AM
+2014-10-29 20:54:40,saraav,Video recording started in Camera:WIFICamera - Video Batch id:29_10_14_08_54_28_PM
+2014-10-29 20:55:36,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:29_10_14_08_55_24_PM
+2014-10-30 02:54:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:55:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:55:28,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:56:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:56:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:57:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:57:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:58:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:58:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:59:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 02:59:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:00:29,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:00:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:01:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:01:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:02:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:02:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:03:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:03:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:04:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:04:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:05:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:05:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:06:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:06:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:07:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:07:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:08:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:08:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:09:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:09:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:10:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:10:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:11:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:11:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:12:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:12:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:13:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:13:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:14:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:14:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:15:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:15:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:16:30,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:16:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:17:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:17:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:18:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:18:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:19:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:19:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:20:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:20:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:21:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:21:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:22:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:22:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:23:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:23:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:24:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:24:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:25:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:25:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:26:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:26:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:27:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:27:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:28:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:28:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:29:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:29:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:30:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:30:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:31:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:31:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:32:31,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:32:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:33:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:33:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:34:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:34:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:35:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:35:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:36:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:36:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:37:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:37:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:38:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:38:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:39:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:39:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:40:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:40:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:41:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:41:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:42:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:42:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:43:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:43:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:44:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:44:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:45:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:45:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:46:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:46:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:47:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:47:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:48:32,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:48:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:49:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:49:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:50:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:50:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:51:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:51:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:52:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:52:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:53:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:53:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:54:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:54:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:55:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:55:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:56:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:56:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:57:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:57:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:58:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:58:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:59:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 03:59:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:00:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:00:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:01:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:01:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:02:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:02:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:03:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:03:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:04:33,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:04:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:05:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:05:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:06:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:06:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:07:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:07:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:08:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:08:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:09:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:09:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:10:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:10:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:11:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:11:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:12:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:12:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:13:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:13:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:14:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:14:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:15:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:15:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:16:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:16:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:17:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:17:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:18:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:18:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:19:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:19:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:20:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:20:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:21:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:21:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:22:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:22:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:23:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:23:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:24:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:24:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:25:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:25:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:26:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:26:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:27:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:27:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:28:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:28:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:29:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:29:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:30:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:30:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:31:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:31:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:32:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:32:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:33:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:33:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:34:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:34:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:35:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:35:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:36:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:36:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:37:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:37:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:38:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:38:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:39:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:39:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:40:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:40:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:41:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:41:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:42:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:42:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:43:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:43:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:44:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:44:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:45:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:46:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:47:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:48:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:49:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:50:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:51:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:52:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:53:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:54:34,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:55:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:56:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:57:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:58:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 04:59:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:00:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:01:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:02:35,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:03:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:04:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:05:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:06:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:07:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:08:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:09:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:10:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:11:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:12:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:13:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:14:36,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:15:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:16:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:17:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:18:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:19:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:20:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:21:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:22:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:23:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:24:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:25:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:26:37,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:27:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:28:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:29:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:30:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:31:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:32:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:33:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:34:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:35:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:36:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:37:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:38:38,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:39:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:40:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:41:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:42:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:43:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:44:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:45:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:46:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:47:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:48:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:49:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:50:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:51:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:52:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:53:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:54:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:55:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:56:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:57:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:58:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 05:59:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:00:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:01:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:01:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:02:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:02:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:03:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:03:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:04:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:04:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:05:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:05:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:06:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:06:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:07:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:07:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:08:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:08:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:09:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:09:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:10:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:10:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:11:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:12:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:13:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:14:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:15:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:16:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:17:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:18:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:19:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:20:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:21:39,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:22:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:23:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:24:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:25:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:26:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:27:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:28:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:29:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:30:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:31:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:32:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:33:40,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:34:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:35:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:36:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:37:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:38:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:39:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:40:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:41:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:42:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:43:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:44:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:45:41,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:46:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:47:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:48:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:49:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:49:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:50:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:51:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:52:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:53:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:54:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:55:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:56:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:57:42,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:58:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 06:59:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:00:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:01:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:02:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:03:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:04:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:05:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:06:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:07:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:08:43,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:09:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:10:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:11:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:12:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:13:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:14:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:15:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:16:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:17:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:18:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:19:44,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:20:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:21:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:22:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:23:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:24:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:25:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:26:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:27:45,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:28:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:28:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:29:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:29:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:30:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:30:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:31:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:31:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:32:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:32:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:33:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:33:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:34:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:34:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:35:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:35:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:36:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:36:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:37:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:37:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:38:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:38:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:39:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:39:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:40:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:40:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:41:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:41:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:42:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:42:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:43:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:43:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:44:46,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:44:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:45:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:45:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:46:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:46:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:47:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:47:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:48:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:48:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:49:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:49:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:50:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:50:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:51:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:51:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:52:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:52:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:53:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:53:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:54:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:54:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:55:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:55:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:56:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:56:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:57:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:57:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:58:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:58:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:59:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 07:59:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:00:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:00:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:01:47,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:01:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:02:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:02:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:03:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:03:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:04:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:04:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:05:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:05:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:06:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:06:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:07:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:07:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:08:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:08:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:09:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:09:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:10:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:10:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:11:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:11:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:12:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:12:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:13:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:13:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:14:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:14:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:15:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:15:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:16:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:16:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:17:48,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:17:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:18:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:18:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:19:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:19:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:20:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:20:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:21:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:21:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:22:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:22:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:23:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:23:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:24:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:24:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:25:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:25:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:26:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:26:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:27:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:27:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:28:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:28:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:29:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:29:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:30:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:30:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:31:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:31:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:32:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:32:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:33:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:33:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:34:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:34:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:35:49,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:35:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:36:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:36:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:37:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:37:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:38:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:38:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:39:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:39:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:40:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:40:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:41:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:41:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:42:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:42:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:43:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:43:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:44:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:44:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:45:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:45:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:46:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:46:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:47:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:47:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:48:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:48:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:49:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:49:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:50:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:50:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:51:50,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:51:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:52:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:52:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:53:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:53:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:54:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:54:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:55:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:55:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:56:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:56:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:57:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:57:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:58:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:58:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:59:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 08:59:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:00:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:00:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:01:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:01:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:02:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:02:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:03:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:03:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:04:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:04:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:05:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:05:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:06:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:06:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:07:51,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:07:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:08:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:08:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:09:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:09:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:10:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:10:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:11:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:11:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:12:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:12:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:13:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:13:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:14:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:14:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:15:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:15:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:16:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:16:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:17:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:17:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:18:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:18:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:19:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:19:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:20:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:20:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:21:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:21:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:22:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:22:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:23:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:23:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:24:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:24:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:25:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:25:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:26:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:26:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:27:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:27:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:28:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:28:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:29:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:29:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:30:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:30:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:31:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:31:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:32:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:32:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:33:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:33:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:34:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:34:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:35:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:35:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:36:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:36:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:37:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:37:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:38:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:38:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:39:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:39:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:40:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:40:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:41:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:41:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:42:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:42:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:43:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:43:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:44:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:44:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:45:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:45:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:46:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:46:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:47:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:47:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:48:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:48:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:49:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:49:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:50:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:50:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:51:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:51:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:52:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:52:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:53:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:53:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:54:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:54:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:55:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:56:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:57:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:58:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:59:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:00:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:01:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:02:52,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:03:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:04:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:05:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:06:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:07:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:08:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:09:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:10:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:11:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:12:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:13:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:14:53,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:15:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:16:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:17:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:18:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:19:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:20:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:21:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:22:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:23:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:24:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:25:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:26:54,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:27:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:28:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:29:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:30:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:31:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:32:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:33:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:34:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:35:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:36:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:37:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:38:55,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:39:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:40:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:41:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:42:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:43:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:44:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:45:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:46:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:47:56,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:48:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:49:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:50:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:51:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:52:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:53:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:54:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:55:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:56:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:57:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:58:57,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 10:59:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:00:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:01:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:02:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:03:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:04:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:05:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:06:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:07:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:08:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:09:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:10:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:11:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:12:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:13:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:14:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:15:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:16:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:17:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:18:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:18:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:19:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:19:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:20:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:21:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:22:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:22:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:23:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:23:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:24:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:24:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:25:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:25:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:26:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:26:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:27:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:27:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:28:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:28:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:29:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:29:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:30:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:30:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:31:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:31:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:32:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:32:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:33:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:33:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:34:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:34:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:35:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:35:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:35:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:36:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:37:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:38:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:39:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:40:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:41:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:42:58,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:43:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:44:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:45:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:46:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:47:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:48:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:49:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:50:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:51:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:52:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:53:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:54:59,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:56:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:57:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:58:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 11:59:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:00:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:01:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:02:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:03:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:04:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:05:00,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:06:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:07:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:08:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:08:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:09:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:10:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:11:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:12:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:13:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:14:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:15:01,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:16:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:17:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:18:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:19:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:20:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:21:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:22:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:23:02,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:24:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:25:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:26:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:27:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:28:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:29:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:30:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:31:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:32:03,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:33:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:34:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:35:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:36:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:36:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:37:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:37:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:38:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:38:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:39:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:39:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:40:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:40:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:41:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:41:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:42:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:42:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:43:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:43:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:44:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:44:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:45:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:45:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:46:04,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:46:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:47:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:47:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:48:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:48:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:49:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:49:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:50:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:50:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:51:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:51:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:52:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:52:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:53:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:53:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:54:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:54:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:55:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:55:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:56:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:56:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:57:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:57:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:58:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:58:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:59:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 12:59:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:00:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:00:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:01:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:01:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:02:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:02:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:03:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:03:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:04:05,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:04:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:05:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:05:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:06:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:06:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:07:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:07:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:08:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:08:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:09:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:09:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:10:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:10:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:11:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:11:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:12:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:12:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:13:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:13:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:14:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:14:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:15:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:15:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:16:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:16:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:17:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:17:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:18:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:18:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:19:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:19:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:20:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:20:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:21:06,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:21:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:22:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:22:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:23:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:23:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:24:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:24:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:25:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:25:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:26:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:26:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:27:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:27:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:28:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:28:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:29:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:29:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:30:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:30:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:31:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:31:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:32:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:32:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:33:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:33:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:34:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:34:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:35:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:35:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:36:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:36:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:37:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:37:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:38:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:38:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:39:07,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:39:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:40:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:40:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:41:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:41:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:42:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:42:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:43:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:43:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:44:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:44:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:45:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:45:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:46:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:46:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:47:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:47:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:48:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:48:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:49:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:49:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:50:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:50:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:51:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:51:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:52:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:52:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:53:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:53:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:54:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:54:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:55:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:55:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:56:08,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:56:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:57:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:57:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:58:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:58:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:59:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 13:59:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:00:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:00:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:01:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:01:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:02:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:02:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:03:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:03:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:04:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:04:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:05:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:05:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:06:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:06:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:07:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:07:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:08:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:08:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:09:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:09:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:10:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:10:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:11:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:11:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:12:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:12:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:13:09,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:13:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:14:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:14:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:15:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:15:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:16:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:16:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:17:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:17:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:18:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:18:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:19:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:19:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:20:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:20:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:21:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:21:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:22:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:22:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:23:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:23:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:24:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:24:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:25:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:25:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:26:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:26:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:27:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:27:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:28:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:28:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:29:10,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:29:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:30:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:30:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:31:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:31:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:32:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:32:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:33:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:33:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:34:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:34:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:35:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:35:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:36:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:36:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:37:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:37:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:38:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:38:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:39:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:39:12,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:40:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:40:12,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:41:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:41:12,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:11:35,saraav,User:saraav has successfully logged in
+2014-10-30 14:42:11,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 14:42:12,saraav,Camera:ZaviCamera went down while recording is in-progress
+2014-10-30 09:12:54,saraav,Video recording stopped in Camera:ZaviCamera - Video Batch id:29_10_14_08_55_24_PM
+2014-10-30 09:15:15,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:29_10_14_08_54_28_PM
+2014-11-01 15:12:51,saraav,User:saraav has successfully logged in
+2014-11-01 15:13:03,saraav,Video recording started in Camera:WIFICamera - Video Batch id:01_11_14_03_12_51_PM
+2014-11-01 15:13:04,saraav,User:saraav has successfully logged out.
+2014-11-01 16:02:24,saraav,User:saraav has successfully logged in
+2014-11-01 16:03:43,saraav,Video recording started in Camera:WIFICamera - Video Batch id:01_11_14_04_03_31_PM
+2014-11-01 16:11:54,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:01_11_14_04_03_31_PM
+2014-11-01 16:45:30,saraav,User:saraav has successfully logged in
+2014-11-01 16:45:42,saraav,Video recording started in Camera:WIFICamera - Video Batch id:01_11_14_04_45_30_PM
+2014-11-01 16:45:43,saraav,User:saraav has successfully logged out.
+2014-11-01 16:55:48,saraav,User:saraav has successfully logged in
+2014-11-01 16:56:02,saraav,Video recording started in Camera:WIFICamera - Video Batch id:01_11_14_04_55_49_PM
+2014-11-01 16:56:03,saraav,User:saraav has successfully logged out.
+2014-11-01 17:05:15,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:01_11_14_04_55_49_PM
+2014-11-02 09:00:54,saraav,User:saraav has successfully logged in
+2014-11-03 02:27:40,admin,User:admin has successfully logged in as Admin
+2014-11-03 02:27:52,saraav,Cleared all the files (video store) in all the cameras.
+2014-11-03 08:50:11,saraav,User:saraav has successfully logged in
+2014-11-03 14:08:52,saraav,User:saraav has successfully logged in
+2014-11-03 14:37:34,saraav,User:saraav has successfully logged in
+2014-11-03 14:37:46,saraav,Video recording started in Camera:WIFICamera - Video Batch id:03_11_14_02_37_34_PM
+2014-11-03 14:37:47,saraav,User:saraav has successfully logged out.
+2014-11-04 07:41:14,saraav,User:saraav has successfully logged in
+2014-11-04 08:19:05,saraav,User:saraav has successfully logged in
+2014-11-04 08:19:17,saraav,Video recording started in Camera:WIFICamera - Video Batch id:04_11_14_08_19_05_AM
+2014-11-04 08:19:18,saraav,User:saraav has successfully logged out.
+2014-11-04 08:56:31,saraav,Video recording started in Camera:WIFICamera - Video Batch id:04_11_14_08_56_19_AM
+2014-11-04 09:01:04,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:04_11_14_08_56_19_AM
+2014-11-04 09:23:22,saraav,Video recording started in Camera:WIFICamera - Video Batch id:04_11_14_09_23_10_AM
+2014-11-04 09:34:54,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:04_11_14_09_23_10_AM
+2014-11-05 09:25:07,saraav,User:saraav has successfully logged in
+2014-11-05 09:25:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:05_11_14_09_25_07_AM
+2014-11-05 09:25:20,saraav,User:saraav has successfully logged out.
+2014-11-05 15:05:18,saraav,User:saraav has successfully logged in
+2014-11-05 15:16:00,saraav,User:saraav has successfully logged in
+2014-11-05 15:20:07,saraav,User:saraav has successfully logged in
+2014-11-05 15:20:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:05_11_14_03_20_07_PM
+2014-11-05 15:20:20,saraav,User:saraav has successfully logged out.
+2014-11-05 16:38:06,saraav,User:saraav has successfully logged in
+2014-11-05 16:38:18,saraav,Video recording started in Camera:WIFICamera - Video Batch id:05_11_14_04_38_06_PM
+2014-11-05 16:38:20,saraav,User:saraav has successfully logged out.
+2014-11-05 16:39:49,saraav,User:saraav has successfully logged in
+2014-11-05 16:40:02,saraav,Video recording started in Camera:WIFICamera - Video Batch id:05_11_14_04_39_50_PM
+2014-11-05 16:40:03,saraav,User:saraav has successfully logged out.
+2014-11-05 16:41:30,saraav,User:saraav has successfully logged in
+2014-11-05 16:41:43,saraav,Video recording started in Camera:WIFICamera - Video Batch id:05_11_14_04_41_31_PM
+2014-11-05 16:41:44,saraav,User:saraav has successfully logged out.
+2014-11-05 17:56:20,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:05_11_14_04_41_31_PM
+2014-11-05 18:09:07,saraav,User:saraav has successfully logged in
+2014-11-05 18:09:20,saraav,Video recording started in Camera:WIFICamera - Video Batch id:05_11_14_06_09_08_PM
+2014-11-05 18:09:21,saraav,User:saraav has successfully logged out.
+2014-11-06 00:42:14,saraav,User:saraav has successfully logged in
+2014-11-06 00:43:36,admin,User:admin has successfully logged in as Admin
+2014-11-06 00:43:43,saraav,Cleared all the files (video store) in all the cameras.
+2014-11-06 00:44:01,saraav,User settings changed as Option:DAYS_TO_KEEP_VIDEO_FILES, set to:2,  Option:MAX_VIDEO_DURATION_FOR_VIDEO_CONCATENATION_IN_SECONDS, set to:3600,  Option:BUF_VIDEO_LENGTH_TO_BE_ADDED_SECONDS, set to:5,  Option:USER_EMAIL_LIST, set to:saraav@gmail.com,,  Option:FILE_NAME_DATE_TIME_FORMAT, set to:%d_%m_%y_%I_%M_%S_%p,  Option:CAPTURE_VIDEO_DATE_TIME_FORMAT, set to:%D %r,  Option:ENABLE_VIDEO_START_STOP_NOTIFICATION, set to:true,  Option:ENABLE_VIDEO_RECORD_FAILURE_NOTIFICATION, set to:false,  Option:ENABLE_BOARD_START_STATUS_NOTIFICATION, set to:false, 
+2014-11-06 01:58:40,saraav,User:saraav has successfully logged in
+2014-11-06 01:58:53,saraav,Video recording started in Camera:WIFICamera - Video Batch id:06_11_14_01_58_41_AM
+2014-11-06 01:58:54,saraav,User:saraav has successfully logged out.
+2014-11-06 14:26:06,saraav,User:saraav has successfully logged in
+2014-11-06 14:26:11,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:26:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:26:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:06_11_14_02_26_07_PM
+2014-11-06 14:26:19,saraav,User:saraav has successfully logged out.
+2014-11-06 14:27:11,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:27:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:28:11,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:28:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:29:11,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:29:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:30:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:30:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:31:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:31:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:32:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:32:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:33:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:33:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:34:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:34:12,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:34:50,saraav,User:saraav has successfully logged in
+2014-11-06 14:35:11,-1,Camera:WIFICamera went down while recording is in-progress
+2014-11-06 14:35:31,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:06_11_14_02_26_07_PM
+2019-09-13 13:24:46,admin,User:admin has successfully logged in as Admin
+2014-11-07 22:31:06,saraav,User:saraav has successfully logged in
+2014-11-07 22:31:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:07_11_14_10_31_07_PM
+2014-11-07 22:31:20,saraav,User:saraav has successfully logged out.
+2014-11-07 22:54:07,saraav,User:saraav has successfully logged in
+2014-11-07 22:54:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:07_11_14_10_54_07_PM
+2014-11-07 22:54:21,saraav,User:saraav has successfully logged out.
+2014-11-07 23:14:07,saraav,User:saraav has successfully logged in
+2014-11-07 23:14:19,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:07_11_14_11_14_07_PM
+2014-11-07 23:14:20,saraav,User:saraav has successfully logged out.
+2014-11-08 00:04:06,saraav,User:saraav has successfully logged in
+2014-11-08 00:04:18,saraav,Video recording started in Camera:WIFICamera - Video Batch id:08_11_14_12_04_06_AM
+2014-11-08 00:04:20,saraav,User:saraav has successfully logged out.
+2014-11-08 08:54:25,saraav,User:saraav has successfully logged in
+2014-11-08 09:01:00,saraav,Video recording started in Camera:WIFICamera - Video Batch id:08_11_14_09_00_48_AM
+2014-11-08 09:07:02,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:08_11_14_09_00_48_AM
+2014-11-08 09:09:07,saraav,User:saraav has successfully logged in
+2014-11-08 09:09:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:08_11_14_09_09_07_AM
+2014-11-08 09:09:20,saraav,User:saraav has successfully logged out.
+2014-11-08 09:17:07,saraav,User:saraav has successfully logged in
+2014-11-08 09:17:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:08_11_14_09_17_07_AM
+2014-11-08 09:17:21,saraav,User:saraav has successfully logged out.
+2014-11-08 09:35:35,admin,User:admin has successfully logged in as Admin
+2019-09-16 08:59:07,saraav,User:saraav has successfully logged in
+2019-09-16 08:59:20,saraav,Video recording started in Camera:WIFICamera - Video Batch id:16_09_19_08_59_07_AM
+2019-09-16 08:59:21,saraav,User:saraav has successfully logged out.
+2019-09-16 09:17:06,saraav,User:saraav has successfully logged in
+2019-09-16 09:17:18,saraav,Video recording started in Camera:WIFICamera - Video Batch id:16_09_19_09_17_06_AM
+2019-09-16 09:17:20,saraav,User:saraav has successfully logged out.
+2019-09-18 07:59:08,saraav,User:saraav has successfully logged in
+2019-09-18 07:59:08,saraav,User:saraav has successfully logged in
+2019-09-18 07:59:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 07:59:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 07:59:20,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:18_09_19_07_59_08_AM
+2019-09-18 07:59:21,saraav,User:saraav has successfully logged out.
+2019-09-18 08:00:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:01:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:02:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:03:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:04:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:05:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:06:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:07:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:08:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:09:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:10:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:11:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:12:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:13:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:14:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:15:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:16:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:17:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:18:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:19:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:20:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:21:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:22:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:23:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:23:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:24:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:24:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:25:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:25:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:26:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:26:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:27:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:27:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:28:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:28:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:29:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:29:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:30:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:30:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:31:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:31:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:32:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:32:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:33:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:33:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:34:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:34:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:35:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:35:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:36:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:36:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:37:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:37:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:38:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:38:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:39:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:39:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:40:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:40:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:41:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:41:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:42:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:42:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:43:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:43:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:44:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:44:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:45:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:45:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:46:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:46:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:47:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:47:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:48:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:48:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:49:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:49:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:50:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:50:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:51:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:51:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:52:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:52:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:53:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:53:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:54:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:54:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:55:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:55:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:56:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:56:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:57:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:57:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:58:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 08:58:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-18 09:04:06,saraav,User:saraav has successfully logged in
+2019-09-18 09:04:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:18_09_19_09_04_07_AM
+2019-09-18 09:04:20,saraav,User:saraav has successfully logged out.
+2019-09-18 09:17:06,saraav,User:saraav has successfully logged in
+2019-09-18 09:17:18,saraav,Video recording started in Camera:WIFICamera - Video Batch id:18_09_19_09_17_06_AM
+2019-09-18 09:17:19,saraav,User:saraav has successfully logged out.
+2019-09-19 07:38:45,saraav,User:saraav has successfully logged in
+2019-09-19 07:39:05,admin,User:admin has successfully logged in as Admin
+2019-09-19 07:59:08,saraav,User:saraav has successfully logged in
+2019-09-19 07:59:10,saraav,User:saraav has successfully logged in
+2019-09-19 07:59:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 07:59:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 07:59:20,saraav,Video recording started in Camera:WIFICamera - Video Batch id:19_09_19_07_59_08_AM
+2019-09-19 07:59:21,saraav,User:saraav has successfully logged out.
+2019-09-19 07:59:23,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:19_09_19_07_59_10_AM
+2019-09-19 07:59:23,saraav,User:saraav has successfully logged out.
+2019-09-19 08:00:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:00:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:01:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:01:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:02:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:02:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:03:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:03:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:04:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:04:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:05:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:05:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:06:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:06:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:07:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:07:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:08:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:08:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:09:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:09:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:10:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:10:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:11:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:11:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:12:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:12:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:13:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:13:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:14:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:14:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:15:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:15:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:16:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:16:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:17:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:17:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:18:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:18:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:19:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:19:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:20:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:20:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:21:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:21:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:22:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:22:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:23:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:23:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:24:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:24:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:25:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:25:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:26:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:26:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:27:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:27:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:28:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:28:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:29:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:29:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:30:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:31:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:32:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:33:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:34:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:35:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:36:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:37:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:38:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:39:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:40:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:41:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:42:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:43:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:44:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:45:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:46:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:47:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:48:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:49:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:50:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:51:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:52:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:53:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:54:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:55:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:56:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:57:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 08:58:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-19 09:04:06,saraav,User:saraav has successfully logged in
+2019-09-19 09:04:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:19_09_19_09_04_07_AM
+2019-09-19 09:04:20,saraav,User:saraav has successfully logged out.
+2019-09-19 09:17:07,saraav,User:saraav has successfully logged in
+2019-09-19 09:17:20,saraav,Video recording started in Camera:WIFICamera - Video Batch id:19_09_19_09_17_07_AM
+2019-09-19 09:17:21,saraav,User:saraav has successfully logged out.
+2019-09-21 10:21:31,saraav,User:saraav has successfully logged in
+2019-09-21 10:21:48,admin,User:admin has successfully logged in as Admin
+2019-09-21 10:49:00,admin,User:admin has successfully logged in as Admin
+2019-09-21 11:03:19,admin,User:admin has successfully logged in as Admin
+2019-09-21 11:04:15,saraav,Camera:testport has been added successfully
+2019-09-21 11:08:15,saraav,Camera:testport has been deleted successfully
+2019-09-21 11:09:47,saraav,Camera:Test has been added successfully
+2019-09-23 02:53:46,saraav,User:saraav has successfully logged in
+2019-09-23 02:54:11,admin,User:admin has successfully logged in as Admin
+2019-09-23 03:01:10,saraav,Camera:Test has been deleted successfully
+2019-09-23 03:02:30,saraav,Camera:PortCheck has been added successfully
+2019-09-23 07:59:07,saraav,User:saraav has successfully logged in
+2019-09-23 07:59:07,saraav,User:saraav has successfully logged in
+2019-09-23 07:59:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 07:59:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 07:59:20,saraav,Video recording started in Camera:ZaviCamera - Video Batch id:23_09_19_07_59_08_AM
+2019-09-23 07:59:20,saraav,User:saraav has successfully logged out.
+2019-09-23 07:59:20,saraav,Video recording started in Camera:WIFICamera - Video Batch id:23_09_19_07_59_08_AM
+2019-09-23 07:59:21,saraav,User:saraav has successfully logged out.
+2019-09-23 08:00:11,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:01:11,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:02:11,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:03:11,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:04:11,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:05:11,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:06:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:07:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:08:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:09:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:10:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:11:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:12:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:13:12,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:14:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:15:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:16:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:17:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:18:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:19:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:20:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:21:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:22:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:23:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:24:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:25:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:26:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:27:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:28:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:29:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:30:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:31:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:32:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:33:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:34:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:35:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:36:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:37:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:37:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:38:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:38:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:39:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:39:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:40:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:40:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:41:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:41:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:42:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:42:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:43:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:43:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:44:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:44:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:45:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:45:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:46:15,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:46:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:47:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:47:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:48:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:48:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:49:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:50:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:51:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:52:13,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:53:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:54:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:55:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:56:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:57:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 08:58:14,-1,Camera:ZaviCamera went down while recording is in-progress
+2019-09-23 09:04:07,saraav,User:saraav has successfully logged in
+2019-09-23 09:04:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:23_09_19_09_04_07_AM
+2019-09-23 09:04:20,saraav,User:saraav has successfully logged out.
+2019-09-23 09:17:07,saraav,User:saraav has successfully logged in
+2019-09-23 09:17:19,saraav,Video recording started in Camera:WIFICamera - Video Batch id:23_09_19_09_17_07_AM
+2019-09-23 09:17:20,saraav,User:saraav has successfully logged out.
+2019-09-23 17:52:21,saraav,User:saraav has successfully logged in
+2019-09-23 17:53:02,admin,User:admin has successfully logged in as Admin
+2019-09-23 17:53:08,saraav,Camera:PortCheck has been deleted successfully
+2019-09-23 17:55:04,saraav,Camera:PortCheck has been added successfully
+2019-09-23 17:58:18,saraav,Camera:PortCheck has been deleted successfully
+2019-09-23 17:59:02,saraav,Camera:PortCheck has been added successfully
+2019-09-23 18:10:50,saraav,Camera:PortCheck has been deleted successfully
+2019-09-23 18:12:48,saraav,Camera:PortCheck has been added successfully
+2019-09-23 18:21:27,saraav,Camera:PortCheck has been deleted successfully
+2019-09-23 18:24:21,admin,User:admin has successfully logged in as Admin
+2019-09-23 18:24:33,saraav,Camera:WIFICamera has been deleted successfully
+2019-09-23 18:25:13,saraav,Camera:WIFICAMERA has been added successfully
+2019-09-23 18:30:05,saraav,User:saraav has successfully logged in
+2019-09-23 18:30:24,admin,User:admin has successfully logged in as Admin
+2019-09-23 18:30:31,saraav,Camera:WIFICAMERA has been deleted successfully
+2019-09-23 18:31:07,saraav,Camera:WIFICamera has been added successfully
+2019-09-23 18:37:18,admin,User:admin has successfully logged in as Admin
+2014-11-14 07:59:10,saraav,User:saraav has successfully logged in
+2014-11-14 07:59:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 07:59:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:00:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:00:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:01:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:01:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:02:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:02:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:03:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:03:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:04:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:04:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:05:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:05:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:06:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:06:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:07:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:07:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:08:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:08:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:09:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:09:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:10:16,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:10:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:11:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:11:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:12:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:12:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:13:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:13:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:14:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:14:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:15:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:15:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:16:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:16:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:17:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:17:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:18:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:18:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:19:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:19:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:20:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:20:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:21:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:21:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:22:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:22:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:23:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:23:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:24:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:24:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:25:17,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:25:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:26:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:26:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:27:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:27:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:28:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:28:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:29:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:29:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:30:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:30:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:31:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:31:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:32:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:32:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:33:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:33:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:34:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:34:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:35:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:35:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:36:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:36:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:37:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:37:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:38:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:38:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:39:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:39:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:40:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:40:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:41:18,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:41:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:42:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:42:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:43:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:43:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:44:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:44:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:45:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:45:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:46:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:46:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:47:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:47:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:48:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:48:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:49:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:49:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:50:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:50:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:51:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:51:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:52:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:52:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:53:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:53:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:54:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:54:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:55:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:55:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:56:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:56:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:57:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:57:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:58:19,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 08:58:20,-1,Camera:ZaviCamera went down while recording is in-progress
+2014-11-14 09:29:06,saraav,User:saraav has successfully logged in
+2014-11-14 09:40:50,saraav,Video recording stopped in Camera:WIFICamera - Video Batch id:13_11_14_12_29_09_PM

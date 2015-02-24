@@ -1,0 +1,15 @@
+{
+	"UICapture" : true,
+	"single_video_length_in_secs" : 10,
+	"video_file_extn" : "mp4",
+	"record_using" : "ffmpeg",
+	"ffmpeg" : {
+		"executable" : "\\video_recorders\\ffmpeg\\bin\\ffmpeg",
+		"args" : [
+				"-f",
+				"dshow",
+				"-i",
+				"video=UScreenCapture"
+			]
+	}
+}

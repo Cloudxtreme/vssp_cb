@@ -1,0 +1,146 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=320, target-densitydpi=device-dpi">
+</head>
+	<body style=' background-color: #ececec; margin: 0; padding: 0; font-family: HelveticaNeue, sans-serif;'>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" id="background-table">
+			<tbody>
+				<tr>
+					<td align="center" bgcolor="#ececec">
+						<table style="margin:0 10px;" width="640" cellpadding="0" cellspacing="0" border="0">
+							<tbody>
+								<tr><td width="640" height="20"></td></tr>
+								<tr><td width="640">
+									<table id="top-bar" style='border-radius:6px 6px 0px 0px; -moz-border-radius: 6px 6px 0px 0px; -webkit-border-radius:6px 6px 0px 0px; -webkit-font-smoothing: antialiased; background-color: #043948; color: #e7cba3;' width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="#00707b">
+										<tbody>
+											<tr>
+												<td  width="15"></td>
+												<td  width="350" valign="middle" align="left">
+													<table  width="350" cellpadding="0" cellspacing="0" border="0">
+														<tbody><tr><td  width="350" height="8"></td></tr></tbody>
+													</table>
+													<!--
+													<div class="header-content"></div>
+													<table class="w325" width="350" cellpadding="0" cellspacing="0" border="0">
+														<tbody><tr><td class="w325" width="350" height="8"></td></tr></tbody>
+													</table>
+													-->
+												</td>
+												<td width="30"></td>
+												<td width="255" valign="middle" align="right">
+													<!--
+													<table class="w255" width="255" cellpadding="0" cellspacing="0" border="0">
+														<tbody><tr><td class="w255" width="255" height="8"></td></tr></tbody>
+													</table>
+													<table cellpadding="0" cellspacing="0" border="0">
+														<tbody><tr></tr></tbody>
+													</table>
+													<table class="w255" width="255" cellpadding="0" cellspacing="0" border="0">
+														<tbody><tr><td class="w255" width="255" height="8"></td></tr></tbody>
+													</table>
+													-->
+												</td>
+												<td width="15"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td id="header" width="640" align="center" bgcolor="#00707b">
+									<table width="640" cellpadding="0" cellspacing="0" border="0">
+										<tbody><tr><td  width="30"></td><td  width="580" height="30"></td><td  width="30"></td></tr>
+											<tr>
+												<td  width="30"></td>
+												<td  width="580">
+													<div align="center" id="headline">
+														<p style='font-size: 30px;color: #e7cba3; font-family: HelveticaNeue, sans-serif; font-size: 36px; text-align: center; margin-top:0px; margin-bottom:30px;'>
+															<strong><singleline label="Title"><%= APPNAME %></singleline></strong>
+														</p>
+													</div>
+												</td>
+												<td width="30"></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr><td width="640" height="30" bgcolor="#ffffff"></td></tr>
+							<tr id="simple-content-row"><td width="640" bgcolor="#ffffff">
+							<table align="left" width="640" cellpadding="0" cellspacing="0" border="0">
+								<tbody>
+									<tr>
+										<td  width="30"></td>
+										<td  width="580">
+											<repeater>         
+												<layout label="Text only">
+													<table  width="580" cellpadding="0" cellspacing="0" border="0">
+														<tbody>
+															<tr>
+																<td  width="580">
+																	<p align="left" style='font-size: 18px; line-height:24px; color: #9a9661; font-weight:bold; margin-top:0px; margin-bottom:18px; font-family: HelveticaNeue, sans-serif;'><singleline label="Title">Alert Notification</singleline></p>
+																	<div align="left" style=' font-size: 13px; line-height: 18px; color: #444444; margin-top: 0px; margin-bottom: 18px; font-family: HelveticaNeue, sans-serif;'>
+																		<table width="580" cellpadding="0" cellspacing="0" border="0" style='font-family: HelveticaNeue, sans-serif;font-size: 13px'>
+																			<tbody>
+																				<tr><td>Camera Name</td><td><%= CAMERANAME %></td></tr>
+																				<tr><td>Camera Location</td><td><%= CAMERALOCATION %></td></tr>
+																				<tr><td>Event</td><td><%= CAMERAEVENT %></td></tr>
+																				<tr><td>Video Batch ID</td><td><%= VIDEOBATCHID %></td></tr>
+																				<tr><td>Time</td><td><%= CAMERAEVENTTIME %></td></tr>
+																			</tbody>
+																		</table>
+																	</div>
+																</td>
+															</tr>
+															<tr>
+																<td  width="580" height="10"></td>
+															</tr>
+														</tbody>
+													</table>
+												</layout>
+											</repeater>
+										</td>
+										<td width="30"></td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr><td width="640" height="15" bgcolor="#ffffff"></td></tr>
+					<tr>
+						<td  width="640">
+							<table id="footer" style='background-color: #043948; color: #e2e2e2;' width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="#043948">
+								<tbody>
+									<tr>
+										<td  width="30"></td><td width="360" height="30"></td>
+										<td width="60"></td><td  width="160"></td><td  width="30"></td>
+									</tr>
+									<tr>
+										<td width="30"></td>
+										<td  width="360" valign="top" style='font-family: HelveticaNeue, sans-serif;'>
+											<span>
+												<p id="permission-reminder" align="left" style='white-space: normal; text-align: left;font-size: 12px'>
+													<span>You're receiving this because you have enabled Alert notification on <%= APPNAME %></span>
+												</p>
+											</span>
+											<p align="left"></p>
+										</td>
+										<td width="60"></td>
+										<td width="160" valign="top">
+											<p id="street-address" align="right">
+												<span></span>
+											</p>
+										</td>
+										<td width="30"></td>
+									</tr>
+									<tr><td width="30"></td><td width="360" height="15"></td><td  width="60"></td>
+										<td width="160"></td><td width="30"></td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr><td width="640" height="60"></td></tr>
+				</tbody>
+			</table>
+        </td>
+	</tr>
+</tbody></table></body></html>

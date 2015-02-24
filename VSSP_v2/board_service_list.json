@@ -1,0 +1,69 @@
+{
+	"services": [
+					{
+						"name":"board",
+						"Desc":"Board service handles all the services at board like start / stop video recording, add/modify/delete camera, Interacting with Central server...",
+						"executable":"board.js",
+						"enabled" : 1,
+						"args" : [],
+						"log_folder" : "/logs/tmp"
+					},
+					{
+						"name":"board_v2",
+						"Desc":"Board v2 service handles all the services at board like start / stop video recording, add/modify/delete camera, Interacting with Central server...",
+						"executable":"board_v2.js",
+						"enabled" : 1,
+						"args" : [],
+						"log_folder" : "/logs/tmp2"
+					},
+
+					{
+						"name":"VideoMerger Handler",
+						"Desc":"Scheduler which runs at certain interval and extracts the meta-data from the creatd video like bit-rate, duration...etc",
+						"executable":"./board/videomerger/VideoMergerHandler.js",
+						"enabled" : 1,
+						"args" : [],
+						"log_folder" : "/logs/tmp"
+					},
+					{
+						"name":"notifier",
+						"Desc":"Service runs at certain interval which posts the board status like Board External IP/list of cameras/no. of videos captured in each camera",
+						"executable":"board_status_notifier.js",
+						"enabled" : 0,
+						"args" : [],
+						"log_folder" : "/logs/tmp"
+					},
+					{
+						"name":"notification server",
+						"Desc":" Notification server. Board recording process notifies this server on events like Start/Stop video recording",
+						"executable":"notificationserver.js",
+						"enabled" : 1,
+						"args" : [],
+						"log_folder" : "/logs/tmp"
+					},
+					{
+						"name":"videoserver",
+						"Desc":"Service runs as video streamer which is responsible to viewing the videos from the board",
+						"executable":"videoserver.js",
+						"enabled" : 1,
+						"args" : [],
+						"log_folder" : "/logs/tmp"
+					},
+					{
+						"name":"videocleaner",
+						"Desc":"Service runs as video cleaner which is responsible for cleaning the files older than the no. of days configured",
+						"executable":"./board/storecleaner/VideoStoreCleaner.js",
+						"enabled" : 1,
+						"args" : [],
+						"log_folder" : "/logs/tmp"
+                    },
+					{
+						"name":"storagealert",
+						"Desc":"Service runs as storage alert which is responsible for checking the available storage",
+						"executable":"./board/notifier/storage_connection_alert_notifier.js",
+						"enabled" : 1,
+						"args" : [],
+						"log_folder" : "/logs/tmp"
+                    }
+				]
+}

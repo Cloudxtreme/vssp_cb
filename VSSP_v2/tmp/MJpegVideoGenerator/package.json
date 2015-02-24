@@ -1,0 +1,15 @@
+{
+  "name": "MJpegVideoGenerator",
+  "version": "0.1.0",
+  "description": "MJpegVideoGenerator",
+  "main": "",
+  "private": true,
+  "dependencies": {
+    "file-on-write" : "*",
+    "mjpeg-consumer": "*",
+    "request" : "*",
+    "string" : "*",
+    "valid-url" : "*",
+    "nanotimer" : "*"
+  }
+}

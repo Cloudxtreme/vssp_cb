@@ -1,0 +1,1 @@
+{"name":"ffmpeg_custom","id":2,"executable":"ffmpeg_original","args":["-r","<FPS>","-s","<SCREEN_SIZE>","-y"]}

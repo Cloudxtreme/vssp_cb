@@ -1,0 +1,11 @@
+{
+  "name": "test-site",
+  "description": "Test Site",
+  "version": "0.0.1",
+  "private" : true,
+  "dependencies": {
+    "express": "*",
+    "string": "*",
+	"forever" : "*"
+  }
+}

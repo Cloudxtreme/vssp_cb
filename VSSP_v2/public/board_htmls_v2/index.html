@@ -1,0 +1,171 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/site.min.css">
+		<script type="text/javascript" src="js/site.min.js"></script>
+		<script src="./js_dojo/js/dojo/dojo.js" djConfig = 'parseOnLoad: true'></script>
+		<script src="/modules/DojoRequire.js"></script>
+		<script>
+			dojo.registerModulePath('modules', '/../../../../modules');
+			dojo.require('dojo.string');
+			dojo.require('modules.BoardConnectionHandler');			
+			dojo.require('modules.UserAuthentication');
+		</script>
+		<script>
+			dojo.subscribe('UserAuthenticationSignal', function(e) {
+				console.log('Authentication result has come. Value:' + dojo.toJson(e, true));
+				if(e.status !== 'SUCCESS') {
+					dojo.removeClass('error_alert', 'dont-show');
+					dojo.byId('error_message').innerHTML = e.error_info;
+
+					dojo.addClass('success_alert', 'dont-show');
+					dojo.byId('success_message').innerHTML = '';
+					
+					return;
+				} 
+				dojo.addClass('error_alert', 'dont-show');
+				dojo.byId('error_message').innerHTML = '';
+				
+				dojo.removeClass('success_alert', 'dont-show');
+				dojo.byId('success_message').innerHTML = 'Authentication success. Loading the system...';
+				window.location='video_main.html';
+			});			
+			dojo.connect(dojo.byId('login-form'), 'onsubmit', function(evt) {
+				dojo.stopEvent(evt);
+				dojo.addClass('error_alert', 'dont-show');
+				dojo.byId('error_message').innerHTML = '';
+
+				dojo.addClass('success_alert', 'dont-show');
+				dojo.byId('success_message').innerHTML = '';
+
+				var username = dojo.string.trim(dojo.byId('username').value);
+				var pwd = dojo.string.trim(dojo.byId('password').value);
+				if(username.length <= 0) {
+					dojo.addClass('divUserName', 'has-error');
+					dojo.addClass('userNameFeedBack', 'glyphicon-remove');
+					document.getElementById('username').focus();
+					return;
+				} else {
+					dojo.removeClass('divUserName', 'has-error');
+					dojo.removeClass('userNameFeedBack', 'glyphicon-remove');
+				}
+				if(pwd.length <= 0) {
+					dojo.addClass('divPassword', 'has-error');
+					dojo.addClass('passwordFeedBack', 'glyphicon-remove');
+					document.getElementById('password').focus();
+					return;
+				} else {
+					dojo.removeClass('divPassword', 'has-error');
+					dojo.removeClass('passwordFeedBack', 'glyphicon-remove');
+				}
+				
+				login();
+			});
+			function login() {
+				//var statusNode = dojo.byId('loginStatus');
+				//statusNode.innerHTML = 'Logging in...';
+				//dojo.attr(dojo.byId('loader'), "style", "display:block");
+				var auth = new modules.UserAuthentication;
+				auth.authenticate(dojo.byId('username').value, dojo.byId('password').value); 	
+			}		
+			
+			require("dojo/ready", function(ready){
+				 ready(function(){
+					console.log('Loaded');
+					 document.getElementbyId('username').focus();
+				 });
+			});
+		</script>
+	</head>
+	<body>
+		<div id="loading" class='dont-show'>
+			<p><img src="img/spiffygif_40x40.gif" />Please Wait</p>
+		</div>	
+		<div class="app-header">
+			<table class='app-header-table'>
+				<tr>
+					<td>
+						<p class='app_name'>&nbsp;&nbsp;&nbsp;&nbsp;Video Surveillance Service Provider</p>
+					</td>
+					<td>
+						&nbsp;
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class='container_custom'>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class='login-panel'>
+				<div class="panel panel-primary">
+					<div class="panel-heading"><h3 class="panel-title">Login</h3></div>
+					<div class="panel-body">
+						<form name='login-form'>
+							<table class='login-form'>
+								<tbody>
+									<tr>
+										<td>
+											&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div id='divUserName' class='form-group has-feedback'>
+												<input type='text' class='form-control' name='username' id='username' placeholder='Username'>
+												<span id='userNameFeedBack' class="glyphicon form-control-feedback"></span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div id='divPassword' class='form-group has-feedback'>
+												<input type='password' class='form-control' name='password' id='password' placeholder='Password'>
+												<span id='passwordFeedBack' class="glyphicon form-control-feedback"></span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<button type="submit" class="btn btn-primary btn-block" id='login'>Submit</button>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<div class="alert alert-danger dont-show" id='error_alert'>
+												<span id='error_message'></span>
+											</div>
+											<div class="alert alert-success dont-show" id='success_alert'>
+												<span id='success_message'></span>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class='app-footer'>
+			<div class="container">
+				<div class="clearfix">
+					<div class="footer-copyright-custom text-center">Copyright © 2014 VSSP. All rights reserved.</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

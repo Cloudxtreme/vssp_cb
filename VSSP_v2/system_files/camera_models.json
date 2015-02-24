@@ -1,0 +1,14 @@
+{
+	"camera_models" : [
+		{
+			"node_model_id" : 1,
+			"node_model_name" : "ZAVI-7879",
+			"node_model_desc" : "Zavi Camera"
+		},
+		{
+			"node_model_id" : 2,
+			"node_model_name" : "New Model",
+			"node_model_desc" : "IP Camera Type"
+		}
+	]
+}
