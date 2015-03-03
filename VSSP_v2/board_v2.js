@@ -23,6 +23,7 @@ var express = require('express')
   , portchecker = require('portscanner')
   , logger = require('./board/logger/logger').logger
   , strftime = require('strftime')
+  , net = require('net')
   , request = require('request');
 
 var app = express();
@@ -379,20 +380,20 @@ app.get('/board/proxy', function(req, res) {
 		sock.on('connect', function() {
 			sock.destroy();
 			if(S(username).isEmpty()) {
-				request.get(showFilterDialogNew).pipe(res);
+				request.get(urlData).pipe(res);
 			} else {
-				request.get(showFilterDialogNew, {'auth': {
+				request.get(urlData, {'auth': {
 					'user': username,
 					'pass': password,
 					'sendImmediately': true
 				}}).pipe(res);
 			}			
 		}).on('error', function(e) {
-			logger.info('URL:' + url + ' is Down...');
+			logger.info('URL:' + urlData + ' is Down...');
 			//logger.info(url_data.hostname + ':' + url_data.port + ' is down: ' + e.message);
 			res.send(404);
 		}).on('timeout', function(e) {
-			logger.info('URL:' + url + ' is timeout...');
+			logger.info('URL:' + urlData + ' is timeout...');
 			//logger.info(url_data.hostname + ':' + url_data.port +' is down: timeout');
 			res.send(404);
 		}).connect(port, url_data.hostname);

@@ -64,6 +64,7 @@
 				//var statusNode = dojo.byId('loginStatus');
 				//statusNode.innerHTML = 'Logging in...';
 				//dojo.attr(dojo.byId('loader'), "style", "display:block");
+				loading_status_display = 'Authentication in-progress...';
 				var auth = new modules.UserAuthentication;
 				auth.authenticate(dojo.byId('username').value, dojo.byId('password').value); 	
 			}		
@@ -77,9 +78,23 @@
 		</script>
 	</head>
 	<body>
-		<div id="loading" class='dont-show'>
-			<p><img src="img/spiffygif_40x40.gif" />Please Wait</p>
+		<div id='loading_dialog' class='dialog_container dont-show'>
+			<div class="loading-modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="row">
+                          <div class="col-md-2" id="lo">
+                             <img src="./bootflat/img/spiffygif_40x40.gif" />
+                         </div>
+						  <div class="col-md-10" id="about_transaction_status_loading_container">
+							<label class="control-label" id="about_transaction_status_loading"></label>
+						  </div>
+                        </div>
+					</div>
+				</div>
+			</div>
 		</div>	
+	
 		<div class="app-header">
 			<table class='app-header-table'>
 				<tr>

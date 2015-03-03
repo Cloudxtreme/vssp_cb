@@ -10,6 +10,7 @@ var currentPlayingVideoID = -1;
 var videoTags = [];
 var currentCamera = -1;
 var currentCameraVideoList = [];
+var mpjegMJPEGIntervals = {};
 
 showSuccessStatus = function(msg) {
 	dojo.removeClass('status_container', 'dont-show');
@@ -157,6 +158,7 @@ authenticateAdminUser = function() {
 		return;
 	}
 
+	loading_status_display = 'Admin authentication in-progress...';
 	var conn = new modules.BoardConnectionHandler;
 	conn.sendPostData('/board/isUserAdmin', 'username=' + username + '&password=' + pwd + '&auth_id=' + dataStore['auth_id'], 'UserAdminAuthenticationSignalNew');
 }
@@ -164,6 +166,7 @@ authenticateAdminUser = function() {
 dojo.subscribe('UserAdminAuthenticationSignalNew', function(e) {
 	console.log('User admin authentication response has come. Value:' + dojo.toJson(e, true));
 	dojo.removeClass('admin_auth_error_status', 'dont-show');
+	dojo.addClass('selectedCameraDetailsDisplay', 'dont-show'); 
 	try {
 		if(e.status === 'SUCCESS') {
 			dojo.addClass('admin_auth_error_status', 'dont-show');
@@ -357,6 +360,26 @@ getMJPEGImageViewVideoInGrid = function(camera, cameraIndex, width, height) {
 	return data;
 }
 
+getMJPEGPlugInVideoDetailedView = function(camera, width, height) {
+	var data = '<div id=\'IndividualCameraView_' + camera.node_id + '\' onclick="showCameraDetails(' + camera + ')" >';
+	data += '<img id=\'individualCameraLiveViewImageControl_' +  camera.node_id + '\'';
+	data += '  width=\'' + width + 'px\'  height=\'' + height + 'px\' />';
+	data += '</div>';
+	return data;
+}
+
+doPeriodicImageRefreshInIndividualCameraView = function(camera) {
+	//clear any previously interval timers...because at any point of time, only one mjpeg viewer will be available to user
+	clearInterval(mpjegMJPEGIntervals['individual_interval']);
+	var cameraInterval = setInterval(function() {
+		var imgElement = dojo.byId('individualCameraLiveViewImageControl_' + camera['node_id']);
+		if(imgElement) {
+			var link = getImageLinkForCamera(camera);
+			dojo.attr(imgElement, 'src', link);
+		}
+	}, dataStore['mjpeg_img_refresh_in_ms']);
+	mpjegMJPEGIntervals['individual_interval'] = cameraInterval;
+}
 
 getCameraForGridView = function(camera, index) {
 	var camera_name = 'No Camera';
@@ -403,6 +426,7 @@ getAllCameraGridView = function() {
 			data += '<div class="grid_video_row">';
 		}
 		if(startsWith(camera.node_url, 'http')) {
+			console.log('Camera:' + camera['node_name'] + ' is MJPEG');
 			mjpegCameras.push(camera);
 		}
 	});
@@ -421,21 +445,38 @@ getAllCameraGridView = function() {
 startMJPEGGridDisplayTimer = function(mjpegCameras) {
 	mjpegCameras.forEach(function(camera) {
 		//TODO:: Enable this to view mjpeg stream
-		//doPeriodicImageRefreshInGridView(camera);
+		//initialze with error so that auth gets done;
+		var camera_name = camera['node_name'];
+		dataStore['grid_mjpeg_error_' + camera_name] = true;
+		doPeriodicImageRefreshInGridView(camera);
 	});
 }
 
 authWithCameraIfNeeded = function(camera) {
-		require(['dojo/request/xhr', 'dojo/string', 'dojox/encoding/base64'], function(xhr, string, b64) {
-			if(string.trim(camera.node_username).length <= 0) {
-				console.log('No username is set. No auth for this camera');
-				return;
-			}
-			
+	require(['dojo/request/xhr', 'dojo/string', 'dojox/encoding/base64'], function(xhr, string, b64) {
+		if(string.trim(camera.node_username).length <= 0) {
+			console.log('No username is set. No auth for this camera');
+			return;
+		}
+		var camera_name = camera.node_name;
+		console.log('Current mjpeg error:' + dataStore['grid_mjpeg_error_' + camera_name]);
+
+		if(dataStore['grid_mjpeg_error_' + camera_name]) {
+			console.log('requesting.');
 			var url = '/board/proxy?url=' + camera.node_url + '&username=' + camera.node_username + '&password=' + camera.node_password;
 			//var url = camera['local_node_url']
+			var interVal = mpjegMJPEGIntervals['grid_' + camera_name]
+			console.log('List of intervals..' + dojo.toJson(mpjegMJPEGIntervals));
+			clearInterval(interVal);
+
 			xhr(url).then(function(data){
-				console.log('Success in authentication for camera:' + camera.node_name);
+				
+				console.log('Success in authentication for camera:' + camera.node_name);					
+				//reset the interval only when there is error
+				dataStore['mjpeg_img_refresh_in_ms'] = dataStore['old_mjpeg_img_refresh_in_ms'];
+				console.log('resetting the display of mjpeg to:' + dataStore['mjpeg_img_refresh_in_ms']);
+				doPeriodicImageRefreshInGridView(camera);
+				dataStore['grid_mjpeg_error_' + camera_name] = false;
 			},
 			function(error){
 				// Display the error returned
@@ -451,25 +492,35 @@ authWithCameraIfNeeded = function(camera) {
 					var link = './res/NoCameraSignal.png';
 					dojo.attr(imgElement, 'src', link);
 				}
-				
+				dataStore['old_mjpeg_img_refresh_in_ms'] = dataStore['mjpeg_img_refresh_in_ms'];
+				console.log('resetting the display of mjpeg to:15000 ms');
+				dataStore['mjpeg_img_refresh_in_ms'] = 15000;
+				//set the error flag
+				dataStore['grid_mjpeg_error_' + camera_name] = true;
+				doPeriodicImageRefreshInGridView(camera);
 			});
-		});
+		}
+	});	
 }
 
 doPeriodicImageRefreshInGridView = function(camera) {
-	setInterval(function() {
+	var cameraInterval = setInterval(function() {
 		var imgElement = dojo.byId('gridCameraLiveViewImageControl_' + camera.node_id);
 		if(imgElement) {			
 			var link = getImageLinkForCamera(camera);
 			dojo.attr(imgElement, 'src', link);
 		}
 		/*
-		if(authAttempts % 20 == 0) {
+		var camera_name = camera['node_name'];
+		console.log('Prev value:' + dataStore['grid_mjpeg_error_' + camera_name]);
+		if(authAttempts % 20 == 0 && dataStore['grid_mjpeg_error_' + camera_name]) {
 			authWithCameraIfNeeded(camera);
 		}
 		authAttempts++;
 		*/
 	}, dataStore['mjpeg_img_refresh_in_ms']);
+	var camera_name = 'grid_' + camera['node_name'];
+	mpjegMJPEGIntervals[camera_name] = cameraInterval;
 }
 
 getImageLinkForCamera = function(camera) {
@@ -615,6 +666,8 @@ startRecord = function(camera_id) {
 		return;
 	}
 	
+	loading_status_display = 'Starting the video record...';
+	
 	var videoDurationForImmediate = '0';
 	var selectedVideoProfileID = '1'; //getValue('listVideoProfileForRecord');
 	var recordServiceType = '1';	//for record now option
@@ -667,7 +720,8 @@ stopRecord = function(camera_id) {
 		console.log('Failed to get camera details while stopping the video record');
 		return;
 	}
-	
+
+	loading_status_display = 'Stopping the video record...';	
 	var conn = new modules.BoardConnectionHandler;
 	conn.sendPostData('/board/stopVideoRecording', 'user_id=' + dataStore['user_id'] + '&node_id=' + camera_id + '&node_name=' + camera['node_name'] + '&auth_id=' + dataStore['auth_id'], 'stopRecordSignal');					
 }
@@ -710,29 +764,29 @@ dojo.subscribe('UpdateVideoRecordingOptionsSignal', function(e) {
 			var liveVideoViewCaption = dojo.byId('liveCameraCaption_' + node_id);
 			if(! e.result) {
 				//enable start
-				console.log("First B4");
+				//console.log("First B4");
 				if(dojo.byId('startRecordingButton')) {
 					dojo.removeClass('startRecordingButton', 'disabled');
 					dojo.addClass('stopRecordingButton', 'disabled');
 					console.log('Start / stop buttons have been disabled when result = false');
 				}
 				if(liveVideoViewCaption) {
-					console.log("b4");
+					//console.log("b4");
 					dojo.removeClass('liveCameraCaption_' + node_id, 'record_inprogress');
-					console.log('Remove class');
+					//console.log('Remove class');
 				} else {
 					console.log('Camera Caption for camera:' + node_id + ' not found');
 				}
 			} else {
 				//enable stop
 				if(dojo.byId('startRecordingButton')) {
-					dojo.removeClass('startRecordingButton', 'disabled');
-					dojo.addClass('stopRecordingButton', 'disabled');
+					dojo.addClass('startRecordingButton', 'disabled');
+					dojo.removeClass('stopRecordingButton', 'disabled');
 					console.log('Start / stop buttons have been disabled when result = true');
 				}
 
 				if(liveVideoViewCaption) {
-					console.log("b4");
+					//console.log("b4");
 					dojo.addClass('liveCameraCaption_' + node_id, 'record_inprogress');
 				} else {
 					console.log('Camera Caption for camera:' + node_id + ' not found');
@@ -763,8 +817,13 @@ openLiveViewCamera = function(camera_id) {
 		console.log('Failed to open the camera live view. Camera details found to be null');
 		return;
 	}
-	var liveCameraViewData = getVLCPlugInVideoDetailedView(camera, detailed_video_dimension[0], detailed_video_dimension[1]);
-	
+	var liveCameraViewData = '';
+	if(startsWith(camera.node_url, 'http')) {
+		console.log('Camera:' + camera['node_name'] + ' is MJPEG');
+		liveCameraViewData = getMJPEGPlugInVideoDetailedView(camera, detailed_video_dimension[0], detailed_video_dimension[1]);
+	} else {
+		liveCameraViewData = getVLCPlugInVideoDetailedView(camera, detailed_video_dimension[0], detailed_video_dimension[1]);
+	}
 	var data = '<div class="row">';
 	data += '<div class="col-xs-6">';
 	data += liveCameraViewData;
@@ -785,6 +844,9 @@ openLiveViewCamera = function(camera_id) {
 	data += '</div>';	
 	
 	dojo.byId('currentCameraDetails').innerHTML = data;
+	
+	doPeriodicImageRefreshInIndividualCameraView(camera);
+	
 	showControlPanel(camera_id);
 	enableDisableControlsBasedOnAdminLoginSession();
 	dojo.removeClass('openVideosListOfSelectedCamera', 'active');

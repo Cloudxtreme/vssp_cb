@@ -28,13 +28,12 @@ showBackupSelectedVideosDialog = function(camera_id) {
 		}
 	);
 	
-	showBackupVideosDialogWithVideos(selectedCamera);
+	//showBackupVideosDialogWithVideos(selectedCamera);
 	
-	/*
-	if(selectedVideos.length > 0) {
+	
+	if(selectedVideosForBackup.length > 0) {
 		if('admin_id' in dataStore) {
-		
-			showBackupVideosDialogWithVideos(selectedCamera, selectedVideos);
+			showBackupVideosDialogWithVideos(selectedCamera);
 		} else {
 			try {
 				throw new Error('Enable Admin Session to backup the selected video files');
@@ -51,7 +50,7 @@ showBackupSelectedVideosDialog = function(camera_id) {
 		}
 		return;
 	}	
-	*/
+	
 }
 
 showBackupVideosDialogWithVideos = function(selectedCamera) {
@@ -183,11 +182,22 @@ dojo.subscribe('BackupVideosSignalNew', function(e) {
 	}
 });
 
+
 showBackupVideoStatus = function() {
 	
-	var url = '/board/listBackupVideosStatusResponse';
-	var conn = new modules.BoardConnectionHandler;
-	conn.sendGetData(url, 'auth_id=' +  dataStore['auth_id'], 'BackupVideoStatusResponse');	
+	if('admin_id' in dataStore) {
+		var url = '/board/listBackupVideosStatusResponse';
+		var conn = new modules.BoardConnectionHandler;
+		conn.sendGetData(url, 'auth_id=' +  dataStore['auth_id'], 'BackupVideoStatusResponse');	
+	} else {
+		try {
+			throw new Error('Enable Admin Session to backup the selected video files');
+		} catch(err) {
+			handleException(err, true, 'Error');
+		}
+		return;
+	}
+	
 }
 
 getBackupVideoModeNew = function(value) {

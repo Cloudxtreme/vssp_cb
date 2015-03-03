@@ -1,7 +1,17 @@
 var usersList = [];
 showAddUserDialogNew = function() {	
-	dojo.addClass('selectedCameraDetailsDisplay', 'dont-show'); 
-	dojo.removeClass('addUser_container', 'dont-show');
+
+	if('admin_id' in dataStore) {
+		dojo.addClass('selectedCameraDetailsDisplay', 'dont-show'); 
+		dojo.removeClass('addUser_container', 'dont-show');
+	} else {
+		try {
+			throw new Error('Enable Admin Session to add users');
+		} catch(err) {
+			handleException(err, true, 'Error');
+		}
+		return;
+	}
 }
 
 hideAddUserDlgNew = function() {
@@ -79,8 +89,17 @@ dojo.subscribe('AddNewUserSignal', function(e) {
 
 listUsersForUserModify = function() {
 	usersList = [];
-	var conn = new modules.BoardConnectionHandler;
-	conn.sendPostData('/board/listUsers', '&auth_id=' +dataStore['auth_id'], 'UsersListSignalForUserModification')
+	if('admin_id' in dataStore) {
+		var conn = new modules.BoardConnectionHandler;
+		conn.sendPostData('/board/listUsers', '&auth_id=' +dataStore['auth_id'], 'UsersListSignalForUserModification')
+	} else {
+		try {
+			throw new Error('Enable Admin Session to modify / delete users');
+		} catch(err) {
+			handleException(err, true, 'Error');
+		}
+		return;
+	}
 }
 
 dojo.subscribe('UsersListSignalForUserModification', function(e) {
@@ -119,7 +138,10 @@ showListOfUsersForModificationDlg = function() {
 		if(user['admin']) {
 			data += '<option value="' + user['id'] + '">' + user['username']  +  ' [ Admin ]'  + '</option>'; 
 		} else {
-			data += '<option value="' + user['id'] + '">' + user['username'] + '</option>'; 
+			//dont allow to change the currnet user login
+			if(user['username'] != dataStore['username']) {
+				data += '<option value="' + user['id'] + '">' + user['username'] + '</option>'; 
+			}
 		}
 	});
 	console.log('Data:' + data);

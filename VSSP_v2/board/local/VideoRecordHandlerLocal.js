@@ -16,7 +16,7 @@ var user = require(__dirname + '/../nodes/user.js')
 var nodehandler = require(__dirname + '/../nodes/nodehandler.js');
 
 var error_info = '';
-var server_host = 'http://localhost:' + constants.BOARD_PORT;
+var server_host = 'http://localhost:' + constants.BOARD_PORT_V2;
 
 var args = process.argv;
 logger.info('Cmd line args:' + args.slice(2));

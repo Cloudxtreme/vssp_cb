@@ -192,7 +192,7 @@ scanAndCleanVideoStoreFolder = function(camera) {
 						
 						jsonFile = constants.VSSP_STORE_BASE_FOLDER + path.sep + videoObject['json_file_name'];
 						var video_file = S(jsonFile).replaceAll('.json', '.mp4').s;
-						deleteFile(jsonFile, video_file, imgFile);
+						deleteGivenFiles(jsonFile, video_file, imgFile);
 					}
 				}				
 			}
@@ -202,18 +202,27 @@ scanAndCleanVideoStoreFolder = function(camera) {
 	}	
 }
 
-deleteFile = function(jsonFile, videoFile, imgFile) {
+deleteGivenFiles = function(jsonFile, videoFile, imgFile) {
 	
 	try {
+		logger.info('Deleting Video file:' + videoFile);
 		fs.unlinkSync(videoFile);
-	} catch(err) {}
+	} catch(err) {
+		logger.error('Failed to delete the video file:' + videoFile  +', Error:' + err);
+	}
 	try {
+		logger.info('Deleting Video Meta-Data file:' + jsonFile);
 		fs.unlinkSync(jsonFile);	
-	} catch(err) {}
+	} catch(err) {
+		logger.error('Failed to delete the video meta-data file:' + jsonFile  +', Error:' + err);
+	}
 
 	try {
+		logger.info('Deleting Image file:' + imgFile);
 		fs.unlinkSync(imgFile);	
-	} catch(err) {}
+	} catch(err) {
+		logger.error('Failed to delete the Image file:' + imgFile  +', Error:' + err);
+	}
 }
 
 checkAndCleanFilesInAllCameras = function() {
